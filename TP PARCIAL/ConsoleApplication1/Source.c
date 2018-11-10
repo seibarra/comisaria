@@ -16,20 +16,23 @@ void GuardarDatos(tComisaria *comisarias);
 
 void ImportarDatos(tComisaria *comisarias);
 void AltaComisaria(tComisaria *comisarias);
-void BuscarComisaria(tComisaria *comisarias);
+void BuscarComisaria(tComisaria *comisarias, tComisaria comisaria[]);
+void MostrarYEditarRegistro(tComisaria comisaria[]);
+void VisualizarRegistro(tComisaria comisaria[]);
 
-int main() {
-
+int main(void) {
 	tComisaria comisarias[500];
-
+	
+	int i = 0;
 	char opc = 'a';
-
-	CargarDatos(comisarias);
-
-	for (int i = 0; i < 500; i++)
+	
+	for (i = 0; i < 500; i++)
 	{
 		comisarias[i].id = 0;
 	}
+
+	CargarDatos(comisarias);
+	
 
 	while (opc != 'z') {
 		system("cls");
@@ -51,7 +54,7 @@ int main() {
 			AltaComisaria(comisarias);
 			break;
 		case 'c':
-			BuscarComisaria(comisarias);
+			BuscarComisaria(comisarias, comisarias);
 			break;
 		case 'd':
 			break;
@@ -65,27 +68,31 @@ int main() {
 		}
 	}
 
-	/*
-	printf("\n%d\n", comisarias[5].id);
-	printf("%s\n", comisarias[5].nombre);
-	printf("%s\n", comisarias[5].representante);
-	*/
-
-	system("pause");
 	return 0;
 }
 
 void CargarDatos(tComisaria *comisarias) {
+	int i = 0;
 	FILE *comisBin;
-	comisBin = fopen("comisarias.bin", "rb");
-	fread(comisarias, sizeof(tComisaria), 1, comisBin);
+	comisBin = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.bin", "rb");
+	if (comisBin != NULL) {
+		for (i = 0; i < 500; i++){
+		fread(comisarias, sizeof(tComisaria), 1, comisBin);
+		comisarias++;
+	    }
+	}
+	
 	fclose(comisBin);
 }
 
 void GuardarDatos(tComisaria *comisarias) {
+	int i = 0;
 	FILE *comisBin;
-	comisBin = fopen("comisarias.bin", "wb");
-	fwrite(comisarias, sizeof(tComisaria), 1, comisBin);
+	comisBin = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.bin", "wb");
+	for (i = 0; i < 500; i++){
+		fwrite(comisarias, sizeof(tComisaria), 1, comisBin);
+		comisarias++;
+	}
 	fseek(comisBin, 0, SEEK_SET);
 	fclose(comisBin);
 }
@@ -97,9 +104,9 @@ void ImportarDatos(tComisaria *comisarias) {
 
 
 	FILE *comisFile;
-	comisFile = fopen("comisaria.txt", "r");
+	comisFile = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.txt", "r");
 	if (comisFile == NULL) {
-		printf("No se pudo abrir archivo\n");
+		printf("\n\nNo se pudo abrir archivo\n");
 		system("pause");
 		exit(EXIT_FAILURE);
 	}
@@ -129,7 +136,8 @@ void ImportarDatos(tComisaria *comisarias) {
 
 void AltaComisaria(tComisaria *comisarias) {
 	int aux = 0;
-	for (int i = 0; i < 500; i++)
+	int i = 0;
+	for (i = 0; i < 500; i++)
 	{
 		if (comisarias[i].id != 0) {
 			aux = i + 1;
@@ -153,9 +161,9 @@ void AltaComisaria(tComisaria *comisarias) {
 	system("pause");
 }
 
-void BuscarComisaria(tComisaria *comisarias) {
+void BuscarComisaria(tComisaria *comisarias, tComisaria comisaria[]) {
 	char textoBuscar[100];
-	int opc = 1, contador = 0;
+	int opc = 1, contador = 0, i = 0;
 	char opcionBuscar;
 	printf("\nBuscar por: \n");
 	printf("1-Nombre\n");
@@ -168,39 +176,55 @@ void BuscarComisaria(tComisaria *comisarias) {
 	scanf("%s", textoBuscar);
 	
 	if (opc == 1) {
-
-		for (int i = 0; i < 500; i++) {
+		int i = 0, id = 0;
+		for (i = 0; i < 500; i++) {
 			if (strstr(comisarias->nombre, textoBuscar) != NULL) {
 				contador++;
-				printf("\n%d\n", comisarias->id);
-				printf("%s\n", comisarias->nombre);
-				printf("%s\n", comisarias->representante);
-				if (contador == 20) {
-					contador = 0;
-					printf("\nc-�Continuar?");
-					printf("\nv-Visualizar");
-					printf("\ne-Editar");
+				printf("\n%d", comisarias->id);
+				printf("\n%s", comisarias->nombre);
+				printf("\n%s", comisarias->representante);
+				
+				}
+			if (contador == 20 || i >= 499) {
+				if (contador == 20){
+					printf("\n1-Continuar");
+				}else if (contador > 0){
+					printf("\n\n-No hay mas resultados-\n");
+				}else if (contador == 0){
+					printf("\n\n-No se ha encontrado ningun resultado-\n");
+				}
+				if (contador > 0){
+					printf("\n2-Visualizar datos comisaria");
+					printf("\n3-Editar datos comisaria");
+				}
+				printf("\n4-Volver al menu\n");
 
-					scanf("%c", &opcionBuscar);
-						switch (opcionBuscar){
-						case 'v': {
-							system("pause");
-						}
-						case 'e': {
-							system("pause");
-						}
-						default:
-							break;
-						}
+				scanf("%d", &opcionBuscar);
+				
+				switch (opcionBuscar){
+					case 1:
+						break;
+					case 2: 
+						VisualizarRegistro(comisaria);
+						i = 500;
+						break;
+					case 3: 
+						MostrarYEditarRegistro(comisaria);
+						i = 500;
+						break;
+					case 4:
+						i = 500;
+						break;
+					default:
+						break;
 					}
+					contador = 0;
 				}
 			comisarias++;
-			}
-			
 		}
-	else {
-		for (int i = 0; i < 500; i++)
-		{
+			
+	}else {
+		for (i = 0; i < 500; i++){
 			if (strstr(comisarias->representante, textoBuscar) != NULL) {
 				printf("\n%d\n", comisarias->id);
 				printf("%s\n", comisarias->nombre);
@@ -209,55 +233,76 @@ void BuscarComisaria(tComisaria *comisarias) {
 			comisarias++;
 		}
 	}
-	
-	
-
-	system("pause");
 }
 
-void EditarRegistro(tComisaria comisarias[]) {
-		int opc = 0, id = 0;
-		char nombre[34], direccion[63], partido[22], representante[45];
+void MostrarYEditarRegistro(tComisaria comisaria[]) {
+	int opc = 0, id = 0;
+	char nombre[33], direccion[62], partido[21], representante[44];
 
-		printf("Ingrese el ID de la comisaria a editar");
-		scanf("%d", &id);
-
-		printf("Desea cambiar:\n");
-		printf("1: Nombre\n");
-		printf("2:Direccion\n");
-		printf("3:Partido\n");
-		printf("4:Representante\n");
-		printf(" 5: Salir\n");
+	printf("\nIngrese el ID de la comisaria a editar: ");
+	scanf("%d", &id);
+	
+	do{
+		system("cls");
+	
+		printf("ID: %d", id);
+		printf("\nNombre: %s", comisaria[id].nombre);
+		printf("\nDireccion: %s", comisaria[id].direccion);
+		printf("\nPartido: %s", comisaria[id].partido);
+		printf("\nRepresentante: %s", comisaria[id].representante);
+		
+	
+		printf("\n\nDesea cambiar:\n");
+		printf("1-Nombre\n");
+		printf("2-Direccion\n");
+		printf("3-Partido\n");
+		printf("4-Representante\n");
+		printf("5-Salir\n");
 		scanf("%d", &opc);
 
 		switch (opc) {
 		case 1:
-			printf("Escriba el nuevo nombre para la comisaria (maximo 34 caracteres)");
-			scanf("%s", &nombre);
-			strcpy(nombre, comisarias[id].nombre);
+			printf("\nEscriba el nuevo nombre para la comisaria (maximo 34 caracteres): ");
+			scanf("%s", nombre);
+			strcpy(comisaria[id].nombre, nombre);
 			break;
 
 		case 2:
-			printf("Escriba el nuevo direccion para la comisaria (maximo 34 caracteres)");
-			scanf("%s", &direccion);
-			strcpy(direccion, comisarias[id].direccion);
+			printf("\n\nEscriba la nueva direccion para la comisaria (maximo 62 caracteres): ");
+			scanf("%s", direccion);
+			strcpy(comisaria[id].direccion, direccion);
 			break;
 
 		case 3:
-			printf("Escriba el nuevo partido para la comisaria (maximo 34 caracteres)");
-			scanf("%s", &partido);
-			strcpy(partido, comisarias[id].partido);
+			printf("Escriba el nuevo partido para la comisaria (maximo 21 caracteres): ");
+			scanf("%s", partido);
+			strcpy(comisaria[id].partido, partido);
 			break;
 
 		case 4:
-			printf("Escriba el nuevo representante para la comisaria (maximo 34 caracteres)");
-			scanf("%s", &representante);
-			strcpy(representante, comisarias[id].representante);
+			printf("Escriba el nuevo representante para la comisaria (maximo 44 caracteres): ");
+			scanf("%s", representante);
+			strcpy(comisaria[id].representante, representante);
 			break;
-
 		default:
 			break;
 		}
+	}while(opc != 5);
 
+}
 
-	}
+void VisualizarRegistro(tComisaria comisaria[]){
+	int id = 0;
+	printf("\nIngrese el ID de la comisaria a visualizar: ");
+	scanf("%d", &id);
+	
+	system("cls");
+	
+		printf("ID: %d", id);
+		printf("\nNombre: %s", comisaria[id].nombre);
+		printf("\nDireccion: %s", comisaria[id].direccion);
+		printf("\nPartido: %s", comisaria[id].partido);
+		printf("\nRepresentante: %s\n\n", comisaria[id].representante);
+		
+		system("pause");
+}
