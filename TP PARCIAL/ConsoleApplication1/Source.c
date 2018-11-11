@@ -164,27 +164,35 @@ void AltaComisaria(tComisaria *comisarias) {
 void BuscarComisaria(tComisaria *comisarias, tComisaria comisaria[]) {
 	char textoBuscar[100];
 	int opc = 1, contador = 0, i = 0;
-	char opcionBuscar;
 	printf("\nBuscar por: \n");
 	printf("1-Nombre\n");
 	printf("2-Representante\n\n");
 
 	scanf("%d", &opc);
-
-	printf("Ingrese texto a buscar en mayusculas: ");
-
-	scanf("%s", textoBuscar);
+	getchar();
 	
-	if (opc == 1) {
-		int i = 0, id = 0;
+	
+	
+	if (opc == 1 || opc == 2) {
+		
+		printf("Ingrese texto a buscar: ");
+		gets(textoBuscar);
+		system("cls");
+		
 		for (i = 0; i < 500; i++) {
-			if (strstr(comisarias->nombre, textoBuscar) != NULL) {
+			if (strstr(comisarias->nombre, textoBuscar) != NULL && opc == 1) {
 				contador++;
 				printf("\n%d", comisarias->id);
 				printf("\n%s", comisarias->nombre);
 				printf("\n%s", comisarias->representante);
-				
 				}
+			else if (strstr(comisarias->representante, textoBuscar) != NULL  && opc == 2) {
+				contador++;
+				printf("\n%d\n", comisarias->id);
+				printf("%s\n", comisarias->nombre);
+				printf("%s\n", comisarias->representante);
+			}
+	
 			if (contador == 20 || i >= 499) {
 				if (contador == 20){
 					printf("\n1-Continuar");
@@ -199,9 +207,9 @@ void BuscarComisaria(tComisaria *comisarias, tComisaria comisaria[]) {
 				}
 				printf("\n4-Volver al menu\n");
 
-				scanf("%d", &opcionBuscar);
+				scanf("%d", &opc);
 				
-				switch (opcionBuscar){
+				switch (opc){
 					case 1:
 						break;
 					case 2: 
@@ -223,15 +231,10 @@ void BuscarComisaria(tComisaria *comisarias, tComisaria comisaria[]) {
 			comisarias++;
 		}
 			
-	}else {
-		for (i = 0; i < 500; i++){
-			if (strstr(comisarias->representante, textoBuscar) != NULL) {
-				printf("\n%d\n", comisarias->id);
-				printf("%s\n", comisarias->nombre);
-				printf("%s\n", comisarias->representante);
-			}
-			comisarias++;
-		}
+	}
+	else {
+		printf("\n\nEl numero introducido no es valido\n");
+		system("pause");
 	}
 }
 
@@ -258,30 +261,31 @@ void MostrarYEditarRegistro(tComisaria comisaria[]) {
 		printf("3-Partido\n");
 		printf("4-Representante\n");
 		printf("5-Salir\n");
+		
 		scanf("%d", &opc);
-
+		getchar();
 		switch (opc) {
 		case 1:
 			printf("\nEscriba el nuevo nombre para la comisaria (maximo 34 caracteres): ");
-			scanf("%s", nombre);
+			gets(nombre);
 			strcpy(comisaria[id].nombre, nombre);
 			break;
 
 		case 2:
 			printf("\n\nEscriba la nueva direccion para la comisaria (maximo 62 caracteres): ");
-			scanf("%s", direccion);
+			gets(direccion);
 			strcpy(comisaria[id].direccion, direccion);
 			break;
 
 		case 3:
 			printf("Escriba el nuevo partido para la comisaria (maximo 21 caracteres): ");
-			scanf("%s", partido);
+			gets(partido);
 			strcpy(comisaria[id].partido, partido);
 			break;
 
 		case 4:
 			printf("Escriba el nuevo representante para la comisaria (maximo 44 caracteres): ");
-			scanf("%s", representante);
+			gets(representante);
 			strcpy(comisaria[id].representante, representante);
 			break;
 		default:
