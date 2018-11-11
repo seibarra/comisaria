@@ -1,0 +1,432 @@
+Id      Nombre                           Dirección                                                     Partido              Representante
+       1EST.POL.COM.SALTO                ALVEAR 44                                                     Salto                COMISARIO PAHUASI JUSTO GERMAN
+       2SUBCRIA.GORINA                   140 BIS ENTRE 492 Y 501                                       La Plata
+       3CRIA.MUJER Y FLIA.GRAL.PAZ       CAMPOMAR 2944                                                 General Paz          SUBCOMISARIO ALVAREZ NATALIA MARIA
+       4SUBCRIA.J.N.FERNANDEZ            26 1759                                                       Necochea             SUBCOMISARIO REYNOSO LUCAS IVAN
+       5                                 9 DE JULIO 646                                                Chacabuco
+       6SUBCRIA.L.N.ALEM                 LAS HERAS 446                                                 Leandro N. Alem      SUBCOMISARIO MONTIEL DIEGO MIGUEL
+       7EST.POL.COM.PINAMAR 4TA-CARILO   RUTA 11 Y KM 403                                              Pinamar              COMISARIO MORENO MIGUEL ALFREDO
+       8EST.POL.COM.VILLA GESELL 4TA     112 Y CIRCUNVALACION                                          Villa Gesell         SUBCOMISARIO FERREYRA ROBERTO HECTOR
+       9CRIA.MAR DEL PLATA 9NA           ALMAFUERTE 757 - GENERAL PUEYRREDON                           General Pueyrredón   COMISARIO RUIZ GUSTAVO VICENTE
+      10CRIA.MAR DEL PLATA 2DA           CASTELLI 2024 - GENERAL PUEYRREDON                            General Pueyrredón   SUBCOMISARIO MORAN CARLOS ARIEL
+      11CRIA.MAR DEL PLATA 3RA           PADRE DUTTO 535 - GENERAL PUEYRREDON                          General Pueyrredón
+      12CRIA.DOLORES                     QUADRI Y ALBERDI                                              Dolores              COMISARIO MONTENEGRO RODOLFO AGUSTIN
+      13EST.POL.COM.MIRAMAR              MITRE N° 1137                                                 General Alvarado     SUBCOMISARIO CABALLERO ANDRES HUGO
+      14CRIA.BERISSO 1RA                 168 E/ 8 Y CORRALON MUNICIPAL                                 Berisso              COMISARIO INSPECTOR ARISTIMUÑO VICTOR JOSE
+      15CRIA.LA PLATA 5TA                DIAG. 74 E/ 24 Y 23                                           La Plata             COMISARIO CORDOBA CARLOS ALBERTO
+      16CRIA.LA PLATA 3RA                137 E/ 61 Y 62                                                La Plata
+      17CRIA.LA PLATA 13RA               502 E/ 14 Y 15                                                La Plata             SUBCOMISARIO GORBARAN JUAN MANUEL
+      18CRIA.LA PLATA 14TA               173 E/ 517 BIS Y 517                                          La Plata             SUBCOMISARIO LLONTOP FENCO HEBERT JHONY
+      19CRIA.LA PLATA 12DA               12 E/ 48 Y 49                                                 La Plata
+      20CRIA.FLORENCIO VARELA 6TA        AV LA CALORINA E/ HUANACACHE Y MENDOZA                        Florencio Varela     COMISARIO SKRAMOWSKYJ EDUARDO OSCAR
+      21CRIA.QUILMES 4TA                 845 NRO. 2235                                                 Quilmes              COMISARIO INSPECTOR ABALOS GABRIEL ALEJANDRO
+      22CRIA.ALMIRANTE BROWN 3RA         30 DE SEPTIEMBRE NRO. 4254                                    Almirante Brown      SUBCOMISARIO CACIOLI CESAR OMAR
+      23CRIA.ALMIRANTE BROWN 1RA         DIAG. TOLL, JUAN E/ BOUCHARD Y DRUMOND                        Almirante Brown      COMISARIO ZUCCOTTI MARTIN OSCAR
+      24CRIA.LOMAS DE ZAMORA 7MA         BILBAO LA VIEJA E/ PERITO MORENO Y ACERBONI, ANA              Lomas de Zamora      SUBCOMISARIO GODOY LUIS ALBERTO
+      25CRIA.VICENTE LOPEZ 1RA           AV. MAIPU E/ PELLIZA, M. Y SAENZ PENA, R.                     Vicente López        SUBCOMISARIO MENDEZ JUAN MANUEL
+      26CRIA.LA MATANZA NORESTE 2DA      QUINTANA E/ TAPALQUE Y OLAGUER                                La Matanza           COMISARIO URUS ROBERTO SILVIO
+      27CRIA.VICENTE LOPEZ 3RA           ARMENIA E/ RUBEN DARIO Y HERNANDEZ, JOSE                      Vicente López        COMISARIO MILAN ALBERTO ALEJANDRO
+      28CRIA.SAN ISIDRO 7MA              PALMA, DIEGO E/ BILLINGHURTS Y BERGALLO                       San Isidro
+      29CRIA.TRES DE FEBRERO 4TA         L. DE LA TORRE E/ TRENQUE LAUQUEN Y FLEMING                   Tres de Febrero      COMISARIO OSSIMELLI EDGARDO CRISTIAN
+      30CRIA.TIGRE 1RA                   BOURDIEU NRO. 485                                             Tigre                COMISARIO HERNANDEZ CEFERINO SAUL
+      31CRIA.LA MATANZA NOROESTE 4TA     CARABOBO NRO. 22                                              La Matanza           COMISARIO LIENDRO HECTOR DANIEL
+      32CRIA.TRES DE FEBRERO 11RA        TOLEDO N° 2105                                                Tres de Febrero      COMISARIO AGUILAR ROLANDO CARLOS
+      33CRIA.MALVINAS ARGENTINAS 2DA     PERITO MORENO E/ DON BOSCO Y TRES ARROYOS                     Malvinas Argentinas  COMISARIO LEMMA JAVIER ADRIAN
+      34CRIA.MERLO 5TA                   BOSTON Y SAN PABLO                                            Merlo                COMISARIO AULETTA GUSTAVO FABIAN
+      35CRIA.NECOCHEA 2DA                527 Nº 2448                                                   Necochea             COMISARIO MAINERI OSCAR ALMIR
+      36CRIA.NECOCHEA 3RA                8 Nº 4157                                                     Necochea             COMISARIO URRESTARAZU TANGORRA MARTIN
+      37CRIA.MALVINAS ARGENTINAS 1RA     SAN MARTIN 534                                                Malvinas Argentinas  COMISARIO ALVAREZ CLAUDIO NORBERTO
+      38CRIA.NECOCHEA 1RA                58 N  3068                                                    Necochea             SUBCOMISARIO JUAN CARLOS ALBERTO
+      39CRIA.MORENO 1RA                  BELGRANO NRO. 336                                             Moreno               COMISARIO TORRES LINDOLFO GUSTAVO
+      40CRIA.MERLO 6TA                   BALBIN, RICARDO (R.200 KM 40) E/ VARELA Y TAGLE               Merlo                COMISARIO GUIDO ALEJANDRO HERNAN
+      41SUBCRIA.MATHEU                   CANESI 245                                                    Escobar              OFICIAL PRINCIPAL GELVES RAUL MAXIMILIANO
+      42CRIA.PILAR 1RA                   TUCUMAN 575                                                   Pilar                COMISARIO BARICALLA SERGIO MARCELO
+      43CRIA.GRAL.RODRIGUEZ 2DA          CABRAL Y ALMAFUERTE                                           General Rodríguez    COMISARIO LASERNA WALTER CRISTIAN
+      44EST.POL.COM.CAPILLA DEL SEÑOR    FAHY 475                                                      Exaltación de la CruzSUBCOMISARIO OJUEZ FERNANDO OSCAR
+      45EST.POL.COM.GRAL.ALVEAR          SAN MARTIN 935                                                General Alvear       COMISARIO IGUERATEGUI CARLOS RAFAEL
+      46SUBCRIA.PEREZ MILLAN             MANFREDI E/ FUNDADORES Y MORENO                               Ramallo              SUBCOMISARIO ALMEIDA MAXIMILIANO HUGO
+      47EST.POL.COM.TRES ARROYOS 1RA     PRINGLES 66                                                   Tres Arroyos
+      48SUBCRIA.LOMA NEGRA               FORTABAT N° 1593                                              Olavarría
+      49EST.POL.COM.CHACABUCO            SAN JUAN 25                                                   Chacabuco            SUBCOMISARIO ABELEYRA PABLO JAVIER
+      50CRIA.CARLOS CASARES              SAN MARTIN 328                                                Carlos Casares       COMISARIO NOBLE CLAUDIO DARIO
+      51CRIA.BAHIA BLANCA 6TA.           LIBERTAD 2212 (EX SUBCRIA VILLA ROSAS)                        Bahía Blanca         SUBCOMISARIO CEMINO PABLO NESTOR
+      52EST.POL.COM.GUAMINI 2DA          SAN MARTIN 145                                                Guaminí              COMISARIO HERRERO GERMAN DAVID
+      53CRIA.DE LA COSTA 4TA             ESQUI 450                                                     La Costa             COMISARIO LEYES RICARDO RUBEN
+      54CRIA.DE LA COSTA 2DA             LIBERTADOR 609                                                La Costa             COMISARIO SALA RUBEN HORACIO
+      55SUBCRIA.NUEVA ATLANTIS           ROLDAN Y DIAG AYACUCHO                                        La Costa             SUBCOMISARIO AGUILERA RODRIGUEZ JAVIER A.
+      56CRIA.DE LA COSTA 1RA             41 Y 3                                                        La Costa             COMISARIO HEREDIA SANDRO JULIO E.
+      57CRIA.D.L.COSTA 6TA LAS TONINAS   CALLE 1 E/ CALLE 24 Y CALLE 26                                La Costa             SUBCOMISARIO HARISGARAT JORGE GASTON
+      58CRIA.DE LA COSTA 5TA             74 ENTRE 3 Y 4                                                La Costa             COMISARIO MARTINEZ DIEGO MARIANO
+      59SUBCRIA.COSTA DEL ESTE           2 Y LOS ALELIES                                               La Costa             COMISARIO BISIGNANO OMAR ESTEBAN
+      60CRIA.DE LA COSTA 3RA             AVE SAN MARTIN NRO 581                                        La Costa             COMISARIO FACIO ESTEBAN GERMAN
+      61EST.POL.COM.PAVON                CUARTEL IV                                                    General Lavalle      SUBCOMISARIO DATTOMA VICTOR EDUARDO
+      62EST.POL.COM.PINAMAR              JUPITER Y AVE ARQ JORGE BUNGE                                 Pinamar              COMISARIO ROBLES GERARDO OSCAR
+      63EST.POL.COM.PINAMAR 3RA-V.MAR    CORBETA JULIETA Y BATHURS                                     Pinamar              COMISARIO ACOSTA MARCELO JAVIER
+      64EST.POL.COM.PINAMAR 2DA          ANSPACH Y AYACUCHO                                            Pinamar              COMISARIO GOMEZ LUIS ALEJANDRO
+      65                                 MITRE 986                                                     General Lavalle
+      66EST.POL.COM.VILLA GESELL 1RA     PASEO 105 E/ 4 Y 5                                            Villa Gesell         COMISARIO MORALES MARCELO GABRIEL
+      67EST.POL.COM.VILLA GESELL 2DA     PASEO 141 E/ 3 Y 4                                            Villa Gesell         SUBCOMISARIO MONTOYA EZEQUIEL LUIS RAMON
+      68EST.POL.COM.VILLA GESELL 3RA     HOUSSAY Y DEL PLATA                                           Villa Gesell
+      69EST.POL.COM.GRAL.MADARIAGA       IRIGOYEN 528                                                  General Madariaga
+      70EST.POL.COM.PUNTA INDIO          34 Y 23                                                       Punta Indio          SUBCOMISARIO ERCEG GUSTAVO ANTONIO
+      71EST.POL.COM.SANTA CLARA DEL M.   ACAPULCO N° 5 Y DEL ARROYO                                    Mar Chiquita         COMISARIO CORBELA PAULO ANIBAL
+      72EST.POL.COM.MAGDALENA            YRIGOYEN 1001                                                 Magdalena            SUBCOMISARIO IBARRA MARCELO EZEQUIEL
+      73CRIA.MAR DEL PLATA 15TA          RUTA 11 KM22- GENERAL PUEYRREDON                              General Pueyrredón   COMISARIO BELFIORE MIGUEL ANGEL
+      74SUBCRIA.CASINO                   BVAR MARITIMO Y LAS HERAS                                     General Pueyrredón   SUBCOMISARIO GARCIA HUGO ESTEBAN NAZARENO
+      75CRIA.MAR DEL PLATA 5TA           PUAN 2251 - GENERAL PUEYRREDON                                General Pueyrredón   COMISARIO HARISMENDI OSCAR LEONARDO
+      76CRIA.MAR DEL PLATA 1RA           AVE INDEPENDENCIA 1751                                        General Pueyrredón   COMISARIO VULCANO EDGARDO ANDRES
+      77CRIA.MAR DEL PLATA 7MA           JOAQUIN V GONZALEZ Y ACEVEDO - GENERAL PUEYRREDON             General Pueyrredón   COMISARIO ROBLEDO GABRIEL LUIS
+      78CRIA.MAR DEL PLATA 13RA          RUTA PROV 11 KM 22 Y PLAYA SERENA GENERAL PUEYRREDON          General Pueyrredón   SUBCOMISARIO DIPERNA CARLOS ALBERTO
+      79CRIA.MAR DEL PLATA 4TA           CHILE Y ALBERTI - GENERAL PUEYRREDON                          General Pueyrredón   COMISARIO DANIEL CHRISTIAN GUSTAVO
+      80CRIA.MAR DEL PLATA 6TA           REP DEL LIBANO 1130 - GENERAL PUEYRREDON                      General Pueyrredón   COMISARIO HEREDIA EDGAR MARCELO
+      81CRIA.MAR DEL PLATA 16TA          CAMUZZO 1567                                                  General Pueyrredón   COMISARIO FONTANA CRISTIAN DANIEL
+      82SUBCRIA.CAMET                    LA LAURA Y MOYANO (MOYANO 1550)                               General Pueyrredón   SUBCOMISARIO CRUZ LORENA VERONICA
+      83CRIA.MAR DEL PLATA 12DA          BOLIVAR Y LEGUIZAMON - GENERAL PUEYRREDON                     General Pueyrredón   SUBCOMISARIO LOPEZ SILVIO FABIAN
+      84CRIA.MAR DEL PLATA 11RA          180 Y ORTIZ DE ZARATE - GENERAL PUEYRREDON                    General Pueyrredón   COMISARIO BONOLDI OSVALDO JULIAN
+      85SUBCRIA.PARQUE HERMOSO           190 Y 69 - GENERAL PUEYRREDON                                 General Pueyrredón   SUBCOMISARIO CAÑETE CLAUDIO GABRIEL
+      86CRIA.MAR DEL PLATA 8VA           RUTA 88 KM 13 - GENERAL PUEYRREDON                            General Pueyrredón   COMISARIO SENRRA LUIS ALBERTO
+      87EST.POL.COM.MAR CHIQUITA         EZEIZA N° 599                                                 Mar Chiquita         COMISARIO FIGUEROA DARIO IGNACIO
+      88CRIA.MAR DEL PLATA 14TA          RUTA NAC 226 KM 17 - GENERAL PUEYRREDON                       General Pueyrredón   COMISARIO ARIZALA ADRIAN ALFREDO
+      89CRIA.GRAL.GUIDO                  BELGRANO Y CEPEDA - GENERAL GUIDO                             General Guido        SUBCOMISARIO NOGUEIRA RUBEN HORACIO
+      90EST.POL.COM.CASTELLI             SAN MARTIN Y CARLOS PELLEGRINI                                Castelli             COMISARIO DOMENICHELLI LEANDRO GABRIEL
+      91EST.POL.COM.GRAL.ALVARADO        MITRE 1137                                                    General Alvarado
+      92CRIA.BERISSO 2DA                 AV. MONTEVIDEO NRO. 3491                                      Berisso              SUBCOMISARIO GALLO LEONARDO GABRIEL
+      93EST.POL.COM.MAIPU                RIVADAVIA 340                                                 Maipú                SUBCOMISARIO UVIEDO DARIO NAZARENO
+      94CRIA.BERISSO 3RA                 126 Y 35                                                      Berisso              SUBCOMISARIO PASSERINI MOUSSEGNE CHRISTIAN
+      95EST.POL.COM.LEZAMA               RIVADAVIA Y SAN MARTIN                                        Lezama               SUBCOMISARIO MEDLEY PABLO GERMAN
+      96CRIA.ENSENADA 1RA                CESTINO E/ SIDOTTI Y SAN MARTIN                               Ensenada             SUBCOMISARIO PERERA MAXIMILIANO JAVIER
+      97CRIA.LA PLATA 16TA               121 E/ 81 Y 82                                                La Plata
+      98SUBCRIA.ARANA                    640 Y 141                                                     La Plata
+      99CRIA.BERISSO 4TA                 6 E/ 125 Y 124                                                Berisso              COMISARIO ROLDAN MIGUEL ANGEL
+     100CRIA.LA PLATA 8VA                7 E/ 75 Y 74                                                  La Plata             COMISARIO CASA MARTIN RAFAEL BONIFACIO
+     101CRIA.ENSENADA 3RA                47 E/ 122 Y 123                                               Ensenada             SUBCOMISARIO DIGIACOMO CRISTIAN ANDRES
+     102CRIA.LA PLATA 9NA                5 E/ 59 Y 60                                                  La Plata             SUBCOMISARIO SAEZ MATIAS ALFREDO
+     103CRIA.LA PLATA 1RA                AV. 53 e/ 10 y 9                                              La Plata
+     104CRIA.LA PLATA 2DA                38 E/ 7 Y 8                                                   La Plata             COMISARIO TOLABA ALBERTO DANIEL
+     105CRIA.LA PLATA 6TA                1 E/ 527 Y 528                                                La Plata             COMISARIO INSPECTOR CABIRON MARTIN ANDRES
+     106CRIA.LA PLATA 4TA                DIAG. 73 E/ 21 Y 22                                           La Plata             COMISARIO SANCHEZ CARLOS DARIO
+     107CRIA.LA PLATA 11RA               530 E/ 14 Y 15                                                La Plata             SUBCOMISARIO VIZCARRA JUAN JOSE
+     108CRIA.ENSENADA 2DA                BROWN, ALTE. E/ 94 Y 92                                       Ensenada             COMISARIO TORALES GUSTAVO GABRIEL
+     109EST.POL.COM.CHASCOMUS 1RA        LASTRA Y SARMIENTO                                            Chascomús            SUBCOMISARIO IRAZU CESAR PABLO
+     110SUBCRIA.HERNANDEZ                511 ENTRE 29 Y 30                                             La Plata             SUBCOMISARIO BENITEZ FRANCISCO JAVIER
+     111CRIA.LA PLATA 10MA               2 E/ 12 Y 13                                                  La Plata             COMISARIO CLAURE JUAN ANGEL DANIEL
+     112CRIA.LA PLATA 15TA               AVE 44 NRO. 5350                                              La Plata             SUBCOMISARIO QUINTANA FERNANDO ROBERTO
+     113CRIA.LA PLATA 7MA                520 E/ 213 Y 212                                              La Plata             COMISARIO SOLER JUAN SEBASTIAN
+     114EST.POL.COM.PILA                 7 E/ 4 Y 6                                                    Pila                 SUBCOMISARIO SAN MARTIN GASTON
+     115CRIA.BERAZATEGUI 5TA             537 E/ 613 Y 611                                              Berazategui          SUBCOMISARIO QUINTANA CLAUDIO RUBEN
+     116CRIA.BERAZATEGUI 3RA             415 E/ 457A Y 458                                             Berazategui          COMISARIO INSPECTOR PAOLA LEONARDO JAVIER
+     117CRIA.BERAZATEGUI 4TA             52B HERMELO E/ 135 Y 134                                      Berazategui          SUBCOMISARIO KAUFMANN JORGE OMAR
+     118CRIA.BERAZATEGUI 2DA             364 E/ 311 Y 312A                                             Berazategui          SUBCOMISARIO OVIEDO CARLOS OSCAR
+     119CRIA.BERAZATEGUI 1RA             11 E/ 147 Y 148                                               Berazategui          COMISARIO RODRIGUEZ RAMON ANTONIO
+     120CRIA.FLORENCIO VARELA 4TA        LOS POETAS E/ GONZALEZ, JOAQUIN V. Y RUBEN DARIO              Florencio Varela     COMISARIO LANZA CARLOS DANIEL
+     121CRIA.QUILMES 6TA                 CUENCA NRO. 5165                                              Quilmes              SUBCOMISARIO RISSO CARLOS MARTIN
+     122CRIA.QUILMES 1RA                 SARMIENTO E/ RIVADAVIA Y ALEM                                 Quilmes              COMISARIO KAPUST ALEJANDRO MAXIMILIANO
+     123EST.POL.COM.BALCARCE             URIBURU 670                                                   Balcarce
+     124CRIA.QUILMES 3RA                 12 DE OCTUBRE NRO. 55                                         Quilmes              COMISARIO NUÑEZ JUAN RAMON
+     125CRIA.FLORENCIO VARELA 3RA        AV. SENZABELLO E/ NECOCHEA Y PARRAVECINI                      Florencio Varela     COMISARIO FERNANDEZ RAUL ANGEL
+     126CRIA.FLORENCIO VARELA 5TA        RUTA 53 E/ FIGUEROA ALCORTA Y AV. ROCA                        Florencio Varela     COMISARIO MALDONADO FABIAN EMILIO
+     127CRIA.QUILMES 8VA                 PARANA NRO. 230                                               Quilmes              COMISARIO COCH MIGUEL ANGEL
+     128CRIA.FLORENCIO VARELA 1RA        AV. SAN MARTIN E/ AYACUCHO Y NEWBERY, JORGE                   Florencio Varela     COMISARIO FERREIRA SERGIO GUSTAVO
+     129CRIA.QUILMES 9NA                 GUTIERREZ (336) E/ ROCA, ARGENTINO (382) Y BLANCO,            Quilmes              COMISARIO DARNET ARIEL GUSTAVO
+     130CRIA.QUILMES 2DA                 25 DE MAYO NRO. 87                                            Quilmes              SUBCOMISARIO RUDAKOFF TOMAS ANTONIO
+     131SUBCRIA.DOMSELAAR                FLORENTINO AMEGHINO Y BELGRANO                                San Vicente          SUBCOMISARIO PANATTI MARCOS JAVIER
+     132SUBCRIA.DON BOSCO                PILCOMAYO E/ MAIPU Y AYACUCHO                                 Quilmes              SUBCOMISARIO AYALA JOSE ALBERTO
+     133CRIA.FLORENCIO VARELA 2DA        MARTIN FIERRO E/ EL ALJIBE Y EL GAUCHO                        Florencio Varela     COMISARIO DONADIO SERGIO WALTER
+     134CRIA.QUILMES 5TA                 MOSCONI E/ JUJUY Y LA RIOJA                                   Quilmes              COMISARIO MURUCHI CARLOS ERNESTO
+     135CRIA.QUILMES 7MA                 162 E/ PAMPA Y LOS ANDES                                      Quilmes              SUBCOMISARIO RUIZ RICARDO FERNANDO
+     136CRIA.AVELLANEDA 5TA              LAS FLORES NRO. 363                                           Avellaneda           SUBCOMISARIO VILLALBA ROLANDO JAVIER
+     137EST.POL.COM.GENERAL PAZ          CAMPOMAR 2970                                                 General Paz          SUBCOMISARIO PAZ FERNANDO ARIEL
+     138CRIA.ALMIRANTE BROWN 10MA        MARGARITA Y ROSA                                              Almirante Brown      COMISARIO AGUIRRE ALEJANDRO GABRIEL
+     139CRIA.ALMIRANTE BROWN 6TA         BOLLINI NRO. 650                                              Almirante Brown      SUBCOMISARIO SANCHEZ CRISTIAN DARIO
+     140CRIA.AVELLANEDA 4TA              LUJAN E/ AV. MITRE Y BRANDSEN                                 Avellaneda
+     141CRIA.AVELLANEDA 3RA              DEBENEDETTI E/ HUERGO Y CAMPANA                               Avellaneda           SUBCOMISARIO OVEJERO CLAUDIO ALBERTO
+     142CRIA.AVELLANEDA 7MA              OYUELAS Y CASACUBERTA                                         Avellaneda           SUBCOMISARIO HERRERA SILVIO RODRIGO
+     143CRIA.LANUS 6TA                   MONASTERIO E/ GUIDO, GRAL. Y CAAGUAZU                         Lanús                SUBCOMISARIO BALSYS FABIAN ANTONIO
+     144CRIA.ALMIRANTE BROWN 8VA         RIO IGUAZU ENTRE RIO BLANCO Y RIO TUNUYAN- ALMIRANTE BROWN    Almirante Brown      SUBCOMISARIO LOPEZ JUAN OSVALDO
+     145CRIA.ALMIRANTE BROWN 5TA         DARDO ROCHA E/ AGUERO, JULIAN Y GUEMES                        Almirante Brown      COMISARIO SPALLETTA OMAR FELIPE
+     146CRIA.LOMAS DE ZAMORA 6TA         GOLONDRINA NRO. 2950                                          Lomas de Zamora      COMISARIO CORDOBA SERGIO LUIS
+     147CRIA.LANUS 8VA                   GRAL PICO E/ MONTEVIDEO, S. DE Y ITUZAINGO                    Lanús                COMISARIO MEDINA CARLOS ALBERTO
+     148CRIA.ALMIRANTE BROWN 9NA         BYNON NRO. 3137                                               Almirante Brown      SUBCOMISARIO ARCE FABIAN DARIO
+     149CRIA.AVELLANEDA 1RA              LAVALLE E/ AV. PALAA Y AV. BELGRANO                           Avellaneda           COMISARIO RAMIREZ JUAN ARIEL
+     150CRIA.AVELLANEDA 6TA              CARABELAS E/ ELIZALDE Y DONOVAN                               Avellaneda           SUBCOMISARIO FERREYRA ERNESTO FABIAN
+     151CRIA.PTE.PERON                   9 Y 35                                                        Presidente Perón     COMISARIO GARCIA RAUL ALEJANDRO
+     152CRIA.SAN VICENTE 2DA             MITRE E/ SALTA Y RACONE                                       San Vicente          SUBCOMISARIO BOGADO RAMON ARTURO
+     153CRIA.LANUS 10MA                  AGUILAR NRO. 3635                                             Lanús                COMISARIO VICENTE ROLANDO CLAUDIO
+     154CRIA.AVELLANEDA 2DA              GIRIBONE NRO. 495                                             Avellaneda           SUBCOMISARIO DELGADO SERGIO GUSTAVO
+     155CRIA.LOMAS DE ZAMORA 8VA         IRIARTE E/ ZEBALLO Y GONZALEZ, J.B.                           Lomas de Zamora      COMISARIO MOCCHETTI RICARDO DANIEL
+     156CRIA.LANUS 2DA                   O'HIGGINS E/ MONTEVIDEO, S. Y ITUZAINGO                       Lanús                SUBCOMISARIO GONZALEZ EMANUEL JUAN PABLO
+     157CRIA.ALMIRANTE BROWN 4TA         AV. AVIACION NRO. 461                                         Almirante Brown      COMISARIO DOTTORI CRISTIAN ANDRES
+     158CRIA.ALMIRANTE BROWN 2DA         9 DE JULIO E/ AV. ESPORA Y QUINTANA                           Almirante Brown      COMISARIO LOPEZ RAUL
+     159CRIA.ALMIRANTE BROWN 7MA         SARMIENTO NRO. 498                                            Almirante Brown
+     160CRIA.LANUS 1RA                   D. VALLE IBERLUCEA NRO. 2818                                  Lanús                COMISARIO MARIN MARTIN HUGO
+     161CRIA.LOMAS DE ZAMORA 2DA         VERGARA, VALENTIN E/ GASCON Y CHACABUCO                       Lomas de Zamora      SUBCOMISARIO QUINTANA RICARDO
+     162CRIA.LOMAS DE ZAMORA 3RA         STA MARIA DE ORO NRO. 330                                     Lomas de Zamora      COMISARIO MENDEZ NESTOR MAURICIO
+     163CRIA.LANUS 4TA                   MASPERO NRO. 99                                               Lanús                COMISARIO VEGA JUAN JOSE
+     164CRIA.LOMAS DE ZAMORA 1RA         ALEM E/ PORTELA Y SAENZ                                       Lomas de Zamora      SUBCOMISARIO MORANO OSVALDO ERNESTO
+     165CRIA.LANUS 7MA                   D'ELIA, CNEL. E/ PLAUL, SANTIAGO Y LA RIOJA                   Lanús                SUBCOMISARIO PONCE LUIS ANGEL
+     166CRIA.LANUS 3RA                   YATAY NRO. 553                                                Lanús                COMISARIO MATUCHESKI FABIO SEBASTIAN
+     167CRIA.LANUS 9NA                   FERNANDEZ, ENRIQUE NRO. 3635                                  Lanús                COMISARIO GODOY DUILIO MAXIMILIANO
+     168CRIA.SAN VICENTE 1RA             AV. 25 DE MAYO E/ AV. BIOCCA Y CHACABUCO                      San Vicente          COMISARIO BOGADO DANIEL AURELIANO
+     169CRIA.LANUS 5TA                   WARNES NRO. 3077                                              Lanús                SUBCOMISARIO MUÑOZ OSVALDO CESAR
+     170CRIA.LOMAS DE ZAMORA 4TA         EUSKAL ECHEA NRO. 277                                         Lomas de Zamora      SUBCOMISARIO VINAY FABIAN EDUARDO
+     171CRIA.LOMAS DE ZAMORA 9NA         FALUCHO NRO. 84                                               Lomas de Zamora      SUBCOMISARIO MOYANO DIEGO ALFREDO
+     172CRIA.LOMAS DE ZAMORA 5TA         NECOL NRO. 326                                                Lomas de Zamora      COMISARIO RAMIREZ DEL VALLE MARCOS DAVID
+     173CRIA.ESTEBAN ECHEVERRIA 2DA      TTE RETTES E/ ALMAFUERTE Y GONZALEZ, URBANO                   Esteban Echeverría   SUBCOMISARIO MOURELLI HUGO ORLANDO
+     174CRIA.LOMAS DE ZAMORA 10MA        RIVERA SUR E/ COSQUIN Y CAMINO NEGRO                          Lomas de Zamora      SUBCOMISARIO SOSA LUIS ISMAEL
+     175CRIA.ESTEBAN ECHEVERRIA 1RA      SANTAMARINA, SOFIA NRO. 474                                   Esteban Echeverría   COMISARIO GATTI JULIO MARCELO
+     176CRIA.VICENTE LOPEZ 5TA           AV. LIBERTADOR E/ MELO Y VERNET                               Vicente López        SUBCOMISARIO CABRERA MIGUEL ANGEL
+     177SUBCRIA.25 DE MAYO               MARIANO ALEGRE Y NICOLAS BRUZONE                              Esteban Echeverría
+     178CRIA.ESTEBAN ECHEVERRIA 3RA      CNO DE CINTURA NRO. 6098                                      Esteban Echeverría   COMISARIO BARRIENTOS FERNANDO HUGO
+     179CRIA.LA MATANZA NORESTE 6TA      UGARTE, MARTIN E/ OLAVARRIA Y AGUERO                          La Matanza           SUBCOMISARIO PAULONI JUAN GABRIEL
+     180CRIA.SAN ISIDRO 4TA              BALCARCE E/ MARTINEZ, L. Y ALVEAR, GRAL.                      San Isidro           COMISARIO FORQUERA LEONARDO GUSTAVO
+     181EST.POL.COM.AYACUCHO             MITRE 1152                                                    Ayacucho
+     182CRIA.LA MATANZA NORESTE 5TA      DE CIRCUNVALACION Y DEL TALLO                                 La Matanza           SUBCOMISARIO GARRO JAVIER GASTON
+     183CRIA.ESTEBAN ECHEVERRIA 5TA      ANGEL ROTA Y BARBERENA                                        Esteban Echeverría   COMISARIO CORDOVA CLAUDIO FELICIANO
+     184CRIA.ESTEBAN ECHEVERRIA 4TA      CASTEX M. - RP 52 E/ LAGO MASCARDI Y VIDAL                    Esteban Echeverría   SUBCOMISARIO SALAZAR JUAN JOSE
+     185EST.POL.COM.GRAL.BELGRANO        RIVADAVIA 526                                                 Gral. Belgrano       SUBCOMISARIO MELINA CARLOS ALBERTO
+     186CRIA.SAN ISIDRO 2DA              ITALIA E/ RODRIGUEZ PE¥A Y YRIGOYEN, HIPOLITO                 San Isidro
+     187CRIA.VICENTE LOPEZ 4TA           AV. LAPRIDA E/ GRECIA Y CHILE                                 Vicente López        COMISARIO RODRIGUEZ HERNAN SEBASTIAN
+     188CRIA.LA MATANZA NORESTE 1RA      PEDERNERA E/ THOMPSON, M. Y CAGUAZU                           La Matanza           SUBCOMISARIO RENO EDGARDO GERMAN
+     189CRIA.VICENTE LOPEZ 2DA           AV SAN MARTIN E/ ECHEVERRIA Y DEL CAMPO, ESTANISLA            Vicente López        COMISARIO MARCEL RUBEN EDGARDO
+     190CRIA.LA MATANZA NORESTE 4TA      ALTOLAGUIRRE E/ JUNCAL Y TUYUTI                               La Matanza           COMISARIO MARTINEZ JORGE ALEJANDRO
+     191CRIA.EZEIZA 6TA                  DELLEPIANE Y BARREIRO                                         Ezeiza
+     192SUBCRIA.LOMA DE ROCA             UZAL Y BORGES                                                 Vicente López
+     193CRIA.SAN ISIDRO 1RA              ALSINA E/ GARIBALDI Y AV. CENTENARIO                          San Isidro
+     194SUBCRIA.ALDO BONZI               JOSE ALICO 1020 ALDO BONZI                                    La Matanza           SUBCOMISARIO CORTEZ WALTER FABIAN
+     195CRIA.SAN MARTIN 6TA              LAVALLE E/ MATHEU Y MITRE                                     General San Martín   COMISARIO ZARCO LUIS ALBERTO
+     196CRIA.LA MATANZA ESTE 3RA         EL PICAFLOR E/ MOLLE Y LA CHOCA                               La Matanza           COMISARIO VALLEJOS VICTOR OMAR
+     197CRIA.EZEIZA 4TA                  LUGONES E/ SPANO, GUIDO Y HERNANDEZ, J.                       Ezeiza
+     198CRIA.EZEIZA 1RA                  PRINCESA MAFALDA NRO. 255                                     Ezeiza
+     199CRIA.SAN MARTIN 3RA              GUIDO SPANO Y MONTEAGUDO                                      General San Martín   COMISARIO MARES DIEGO MARTIN
+     200CRIA.SAN ISIDRO 5TA              POSADAS, GERVASIO E/ AV. CENTENARIO Y GARIBALDI               San Isidro           COMISARIO BRITES SERGIO ALBERTO
+     201CRIA.TRES DE FEBRERO 10MA        POSADAS E/ MOSCONI Y AMEGHINO                                 Tres de Febrero      COMISARIO HUBERTY DIEGO ANDRES
+     202CRIA.SAN ISIDRO 10MA             HIPOLITO IRIGOYEN Y PANAMA                                    San Isidro           SUBCOMISARIO ESPOSITO HERNAN JACINTO
+     203CRIA.SAN MARTIN 8VA              4 DE FEBRERO E/ CAMPOS Y ROSALIA                              General San Martín   SUBCOMISARIO PEÑALVA SEBASTIAN GABRIEL
+     204CRIA.LA MATANZA NORESTE 3RA      ALBERTI E/ CATRIEL Y ALVEAR                                   La Matanza           COMISARIO GONZALEZ OSCAR ROBERTO
+     205CRIA.EZEIZA 5TA                  COSME ARGERICH NRO. 388                                       Ezeiza               SUBCOMISARIO CORREA ABEL GREGORIO
+     206SUBCRIA.LA UNION                 137 Y 524 Y 525                                               Ezeiza               SUBCOMISARIO DE PAULIS GUSTAVO MARTIN
+     207CRIA.TRES DE FEBRERO 8VA         RODRIGUEZ, FRAY C. E/ INGENIEROS, JOSE Y GARIBALDI            Tres de Febrero      COMISARIO MORENO MARCELO DANIEL
+     208CRIA.TRES DE FEBRERO 12DA        ESTERO BELLACO N° 459                                         Tres de Febrero      COMISARIO ROMERO MARIN ROLANDO ARIEL
+     209CRIA.VICENTE LOPEZ 6TA           DRYSDALE E/ CASTRO, R. Y CASTELLI                             Vicente López        COMISARIO AREVALO JOSE LUIS
+     210CRIA.TRES DE FEBRERO 3RA         DR. CARBONE E/ ESTRADA Y NEWTON                               Tres de Febrero      COMISARIO MACIEJOWSKI DANIEL MARCELO
+     211CRIA.SAN FERNANDO 3RA            LAVALLE E/ DORREGO Y PALACIOS                                 San Fernando         SUBCOMISARIO SILVA NORBERTO CLAUDIO
+     212CRIA.SAN MARTIN 1RA              BALBIN, RICARDO E/ BELGRANO Y MITRE                           General San Martín   COMISARIO SERRIZUELA CLAUDIO FERNANDO
+     213CRIA.TRES DE FEBRERO 6TA         PASO E/ PASTEUR Y RICHIERI                                    Tres de Febrero      COMISARIO FIGUEROA FACUNDO HERNAN
+     214CRIA.TRES DE FEBRERO 2DA         GACETA DE BS AS E/ JUSTO, JUAN B. Y ARCO, STA. JUA            Tres de Febrero      COMISARIO CARDONA GRIÑO LUIS
+     215CRIA.LA MATANZA NOROESTE 6TA     GRAL ACHA E/ BALCARCE Y PALACIOS, ALFREDO                     La Matanza           COMISARIO BRITEZ HORACIO ENRIQUE
+     216CRIA.SAN ISIDRO 8VA              SCALABRINI ORTIZ E/ PERITO MORENO Y MALVINAS, SOLD            San Isidro
+     217                                 OMBU NRO. 3720                                                La Matanza
+     218CRIA.SAN FERNANDO 2DA            SOBREMONTE E/ PASTEUR Y IRIONDO, S.                           San Fernando         SUBCOMISARIO PERALTA ANGEL JULIO
+     219CRIA.SAN MARTIN 2DA              BVARD. BALLESTER E/ LAVALLE Y ALVEAR                          General San Martín   SUBCOMISARIO ROMERO CLAUDIO JAVIER
+     220CRIA.SAN MARTIN 9NA              INDUSTRIA NRO. 3300                                           General San Martín   COMISARIO SASTRE RODOLFO JAVIER
+     221CRIA.LA MATANZA NOROESTE 5TA     ACONCAGUA E/ PEREYRA, LUIS Y OLIVERA, DOMINGO                 La Matanza           SUBCOMISARIO GOMEZ LORENA VANESA
+     222CRIA.SAN FERNANDO 1RA            PERON, PTE. J.D. E/ 9 DE JULIO Y MADERO                       San Fernando         COMISARIO VARGAS ROBERTO CLAUDIO
+     223SUBCRIA.BAIRES BºBANCALARI       AVE DEL LIBERTADOR  GRAL SAN MARTIN Y ALVEAR                  San Fernando         SUBCOMISARIO FRIDMAN ALEJANDRO DAVID
+     224CRIA.LA MATANZA NOROESTE 1RA     VILLEGAS E/ ALMAFUERTE Y ARIETA, ING.                         La Matanza           COMISARIO CAPALBO FRANCISCO ARTURO
+     225CRIA.LA MATANZA NOROESTE 2DA     AV. DE MAYO E/ CHACABUCO Y CASTELLI                           La Matanza           COMISARIO BATALLAN RUBEN DAVID
+     226CRIA.TRES DE FEBRERO 1RA         SAN JORGE E/ AV. URQUIZA Y BELGRANO                           Tres de Febrero      COMISARIO ARCE DANIEL GUSTAVO
+     227CRIA.SAN ISIDRO 3RA              AV. ROLON, AVELINO E/ OLAZABAL Y BULNES                       San Isidro           COMISARIO ROSSO ALBERTO ORLANDO
+     228CRIA.EZEIZA 2DA                  ERRATCHU E/ 25 DE MAYO Y MAROTTO                              Ezeiza
+     229CRIA.MORON 5TA                   TRES DE FEBRERO Y DEL CAMPO, ESTANISLAO                       Morón                COMISARIO REINOSO MARIANO ERNESTO
+     230CRIA.TRES DE FEBRERO 9NA         SEGUNDO SOMBRA E/ ILLIA, ARTURO Y HERNANDEZ, JOSE             Tres de Febrero      COMISARIO SROKA ARNALDO
+     231CRIA.LA MATANZA OESTE 4TA        PEKIN E/ BERRO, ADOLFO Y ANATOLE FRANCE                       La Matanza           COMISARIO SANCHEZ SERGIO ANTONIO
+     232CRIA.SAN MARTIN 5TA              SAN LORENZO Y MORENO                                          General San Martín   COMISARIO ARIAS FACUNDO RODOLFO ANGEL
+     233CRIA.SAN MARTIN 4TA              AV. MARQUEZ E/ BVRD. BALLESTER Y BUENOS AIERS                 General San Martín   COMISARIO LUNA ANGEL DANIEL
+     234CRIA.SAN ISIDRO 9NA              CNO. REAL MORON E/ PANAMERICANA Y ARANA, GDOR.                San Isidro           COMISARIO ESPINOSA JULIO MARCELO
+     235                                 CAMINO REAL Y SASTRE                                          Ezeiza
+     236SUBCRIA.DELTA                    LAVALLE Y SAN MARTIN                                          Tigre                SUBCOMISARIO SUYO OMAR ALFREDO
+     237SUBCRIA.JOSE LEON SUAREZ SUR     AV MARQUEZ Y 9 DE JULIO                                       General San Martín   COMISARIO ACIAR DANIEL MAURICIO
+     238CRIA.SAN FERNANDO 4TA            MIGUEL CANE E/ EFRNANDO FADER Y BENJAMIN FRANKLIN             San Fernando         SUBCOMISARIO MONTENEGRO JAVIER ROBERTO
+     239CRIA.LA MATANZA NOROESTE 3RA     GARIBALDI E/ ENTRE RIOS Y ALMAFUERTE                          La Matanza           SUBCOMISARIO SOSA BRUNO GASTON
+     240CRIA.MORON 2DA                   TACUARI E/ CHACABUCO Y MAIPU                                  Morón                SUBCOMISARIO AGUILAR MORENO NESTOR MARCELO
+     241CRIA.LA MATANZA OESTE 1RA        PARIS E/ SEGUI Y SANTIAGO                                     La Matanza           SUBCOMISARIO ZABALA JOSE TEODORO
+     242CRIA.EZEIZA 3RA                  25 DE MAYO E/ 12 DE OCTUBRE Y ROSARIO                         Ezeiza
+     243CRIA.TRES DE FEBRERO 7MA         LOS AROMOS E/ MAGNOLIAS Y ROBLES                              Tres de Febrero      COMISARIO RODRIGUEZ CARLOS DANIEL
+     244CRIA.LA MATANZA ESTE 1RA         RAFAEL OBLIGADO E/ GUTIERREZ, RICARDO Y BEETHOVEN             La Matanza
+     245CRIA.LA MATANZA ESTE 2DA         NEWBERY, JORGE E/ SOLDADO ROSA Y TRES CRUCES                  La Matanza           COMISARIO MIRANDA ROBERTO RUFINO
+     246SUBCRIA.CUATRO BOCAS             BLAS PARERA Y CAMINO REAL                                     Ezeiza               OFICIAL PRINCIPAL D'ELIA LUCAS MATIAS
+     247CRIA.SAN MARTIN 10MA.            CAMINO DEL BUEN AYRE Y SALVADOR DEBENEDETTI                   General San Martín   COMISARIO PEREZ ALBERTO ADOLFO
+     248CRIA.LA MATANZA OESTE 2DA        BEDOYA, ELIAS E/ OLIVIERI Y LAVALLOL                          La Matanza           COMISARIO OLIVERA HECTOR RUBEN
+     249CRIA.MORON 6TA                   TTE GALAN E/ VICTORICA Y PEDERNERA                            Morón                COMISARIO GONZALEZ RICARDO ALFREDO
+     250CRIA.TRES DE FEBRERO 5TA         AV. MARQUEZ E/ SAN GUILLERMO Y BESADA                         Tres de Febrero      SUBCOMISARIO GALVAN JOSE AGUSTIN
+     251CRIA.LA MATANZA SUR 3RA          ACHUPALLAS E/ SOBERANIA NACIONAL Y MANASCO                    La Matanza           COMISARIO BANEGAS JAVIER ENRIQUE
+     252CRIA.TIGRE 3RA                   ALVEAR, M. T. DE E/ RIOBAMBA Y MENENDEZ Y PELAYO              Tigre                COMISARIO DERUDI MAURICIO JAVIER
+     253CRIA.MORON 1RA                   MITRE, B. E/ BELGRANO Y SAN MARTIN                            Morón
+     254CRIA.LA MATANZA OESTE 3RA        MENDES ANDES E/ SANTA CRUZ Y CAPDEVILA                        La Matanza           COMISARIO OCAMPOS DIEGO ADRIAN
+     255CRIA.TIGRE 2DA                   IRIGOYEN, HIPOLITO NRO. 745                                   Tigre                SUBCOMISARIO FRANCO DIEGO JOSE LUIS
+     256CRIA.HURLINGHAM 2DA              AV. VERGARA NRO. 2350                                         Hurlingham           COMISARIO MIRANDA CAMILO CESAR
+     257CRIA.MORON 4TA                   SANTO DOMINGO E/ AV. PERON, EVA Y SOLARI                      Morón                COMISARIO PEREZ CHRISTIAN DAVID
+     258CRIA.MORON 3RA                   LIBERTADOR E/ ATALIVA ROCA Y ROCHA, DARDO                     Morón                SUBCOMISARIO MEMOLI MARCELO MARTIN
+     259CRIA.HURLINGHAM 5TA              CJAL ENRIQUE RECAGNO Y THEVENING                              Hurlingham
+     260CRIA.HURLINGHAM 1RA              VICTORIA E/ MUSTONI Y GARIBALDI                               Hurlingham
+     261CRIA.LA MATANZA SUR 1RA          SAENZ E/ CUYO Y PUERTO ARGENTINO                              La Matanza           COMISARIO ROTUNNO JERONIMO ALBERTO
+     262CRIA.MORON 7MA                   ALEM, L. N. E/ ESPANA Y ITALIA                                Morón                COMISARIO CASCO PABLO ALBERTO
+     263CRIA.HURLINGHAM 4TA              LANGARA Y LEBENSHON                                           Hurlingham           SUBCOMISARIO AZAMEZ FERNANDO HUGO
+     264CRIA.TIGRE 6TA                   HIPOLITO YRIGOYEN Y PARAGUAY                                  Tigre                SUBCOMISARIO BORDA VICTOR ANTONIO
+     265CRIA.HURLINGHAM 3RA              POTOSI NRO. 3490                                              Hurlingham           COMISARIO GOMEZ CARLOS GERMAN
+     266CRIA.TIGRE 5TA                   GELLY OBES, ANDRES GRAL. E/ ALEMANIA Y CORTEZ, HER            Tigre                SUBCOMISARIO BRITO HEREDIA MARCOS BAUTISTA
+     267CRIA.ITUZAINGO 2DA               LAVALLEJA NRO. 750                                            Ituzaingó            SUBCOMISARIO PEREZ DANIEL FERNANDO
+     268CRIA.ITUZAINGO 1RA               OLAZABAL NRO. 899                                             Ituzaingó            COMISARIO CONTRERAS ROBERTO FABIAN
+     269CRIA.ITUZAINGO 3RA               UDAONDO, GDOR. E/ DE LOS RESEROS Y DE LA VIDALITA             Ituzaingó            SUBCOMISARIO SANABRIA JULIAN MARCELO
+     270SUBCRIA.RICARDO ROJAS            DEL CASSE 3010                                                Tigre
+     271CRIA.SAN MIGUEL 2DA              SAN MARTIN E/ ENTRE RIOS Y O'HIGGINS                          San Miguel           COMISARIO SALVATIERRA WALTER ADRIAN
+     272CRIA.MERLO 4TA                   MORETTI Y COLOMBIA                                            Merlo                SUBCOMISARIO ROSA ALBERTO MIGUEL
+     273CRIA.TIGRE 4TA                   ROCA NRO. 2446                                                Tigre                COMISARIO PERALTA LOPEZ JUAN MARCOS
+     274CRIA.MERLO 2DA                   DIRECTORIO NRO. 236                                           Merlo                SUBCOMISARIO ALT EDUARDO ADRIAN
+     275CRIA.MALVINAS ARGENTINAS 3RA     EJERCITO DE LOS ANDES E/ RANCAGUA Y LOS ANDES                 Malvinas Argentinas
+     276CRIA.ITUZAINGO 4TA               PRINGLES Y PORTUGAL                                           Ituzaingó            COMISARIO BENITEZ EDGARDO GASTON
+     277CRIA.SAN MIGUEL 1RA              ALEM, L. N. E/ ESPANA Y GUEMES                                San Miguel           COMISARIO DI DIO LEAL JORGE MARCELO
+     278SUBCRIA.20 DE JUNIO              URIEN Y CASTAÑEDA                                             La Matanza           SUBCOMISARIO PARODI CESAR ABRAHAM
+     279CRIA.MERLO 1RA                   AV. DEL LIBERTADOR NRO. 368                                   Merlo                SUBCOMISARIO RODRIGUEZ DOMINGO GASTON
+     280CRIA.ESCOBAR 3RA                 PERNA 1151                                                    Escobar              COMISARIO MANRIQUE WALTER ROQUE ALFREDO
+     281CRIA.MERLO 3RA                   SAN MARTIN E/ MURRAY Y BALBASTRO                              Merlo                SUBCOMISARIO CORREA JUAN EDUARDO
+     282CRIA.MORENO 3RA                  ZAPIOLA E/ DASTUGUE Y 25 DE MAYO                              Moreno               COMISARIO LUNA NICASIO LEONARDO
+     283CRIA.ESCOBAR 2DA                 FALUCHO1346                                                   Escobar              SUBCOMISARIO SOTOMAKADO MARIO JAVIER
+     284SUBCRIA.BARRIO MATERA            ALEM Y ARREDONDO                                              Merlo                COMISARIO RAMOS RAUL JAVIER
+     285CRIA.SAN MIGUEL 3RA              IRIGOYN NRO. 4480                                             San Miguel           COMISARIO CABRERA GUSTAVO GABRIEL
+     286CRIA.MORENO 2DA                  AV. CERVANTES E/ J. GONZALES Y GALVEZ, M                      Moreno               SUBCOMISARIO DRESSEL ERNESTO OSVALDO
+     287CRIA.JOSE C.PAZ 1RA              ALTUBE, JOSE E/ GELLY Y OBES Y SAENZ PENA                     José C. Paz          COMISARIO CACERES SERGIO ALEJANDRO
+     288EST.POL.COM.CAÑUELAS 2º M.PAZ    CELEDONIO PEREDA 440 E/ SAN EDUARDO Y SAN MARTIN              Cañuelas             COMISARIO KOWALCZUK JULIO CESAR
+     289CRIA.MORENO 5TA                  BVARD. ALCORTA E/ LAS BARRANCAS Y EL PESCADOR                 Moreno               COMISARIO SAUCEDO CESAR ALEJANDRO
+     290EST.POL.COM.CAÑUELAS 1º          LIBERTAD 738                                                  Cañuelas             COMISARIO NEGRETE JUAN RODOLFO
+     291CRIA.MALVINAS ARGENTINAS 4TA     JUAN DOMINGO PERON - SANTA INES                               Malvinas Argentinas  SUBCOMISARIO ANDRADA JUAN CARLOS
+     292CRIA.MORENO 8VA                  RUTA NAC 23 Y ARROYO CATONAS                                  Moreno               COMISARIO PIAGETTI CRISTIAN HERNAN
+     293CRIA.ESCOBAR 4TA                 BELLIERA Y RUTA 26                                            Escobar              COMISARIO DONADIO EDUARDO MARIO
+     294CRIA.PILAR 4TA                   SNATA RITA Y PAILLETTE                                        Pilar                COMISARIO ABBATE JAVIER ELIAS
+     295CRIA.JOSE C.PAZ 2DA              BUTLER, FRAY G. E/ 11 DE SETIEMBRE Y UGARTECHE                José C. Paz          COMISARIO CHEREY ROBERTO CARLOS
+     296CRIA.PILAR 7MA                   RUTA 26 Y PANAMERICANA                                        Pilar                SUBCOMISARIO OLIVIERI ALEJANDRO DANIEL
+     297CRIA.JOSE C.PAZ 3RA              POTOSI ENTRE BOLIVAR Y CARABOBO                               José C. Paz
+     298EST.POL.COM.LOBERIA              SARMIENTO 450                                                 Lobería              SUBCOMISARIO JAKIMCZUK CRISTIAN BASILIO
+     299CRIA.PILAR 3RA                   ROSALIA CASTRO Y GIMENEZ                                      Pilar                SUBCOMISARIO VISBEEK HECTOR GABRIEL
+     300CRIA.ESCOBAR 1RA                 EUGENIA TAPIA DE CRUZ Y ALBERDI                               Escobar              COMISARIO SPEN ADRIAN ALBERTO
+     301EST.POL.COM.S.MIGUEL DEL MONTE   ZENON VIDELA DORNA 630                                        Monte                SUBCOMISARIO MICUCCI JULIO FRANCO
+     302CRIA.MORENO 4TA                  RUTA 24 E/ ALLENDE Y GUTEMBERG                                Moreno               COMISARIO LOVERA JORGE
+     303CRIA.MORENO 7MA                  RUBEN DARIO NRO. 72                                           Moreno               COMISARIO DIAZ EDUARDO RAMON
+     304EST.POL.COM.MARCOS PAZ           MITRE 247                                                     Marcos Paz           SUBCOMISARIO GOMEZ SERGIO HERNAN
+     305CRIA.PILAR 2DA                   AVE DE MAYO Y DORREGO                                         Pilar                COMISARIO AGUIRRE JOSE ISMAEL
+     306                                 IRIGOYEN Y MITRE                                              Lobería
+     307CRIA.MORENO 6TA                  N ALVAREZ Y MANAGUA                                           Moreno               SUBCOMISARIO ALEGRE DARIO GABRIEL
+     308CRIA.PILAR 6TA                   LAMAS Y PELLEGRINI                                            Pilar                COMISARIO MAIDANA RAFAEL ALBERTO
+     309CRIA.PILAR 5TA                   BELIERA n° 1159 E/ AMBROSETTI Y VICENTE LOPEZ                 Pilar                COMISARIO QUIROGA PABLO ENRIQUE
+     310EST.POL.COM.GRAL.LAS HERAS       LAS HERAS  1051                                               General Las Heras    COMISARIO RODRIGUEZ ALDO MARTIN
+     311CRIA.GRAL.RODRIGUEZ 1RA          ESPAÑA Y 2 DE ABRIL                                           General Rodríguez    COMISARIO ZALAZAR ANTONIO MIGUEL
+     312CRIA.CAMPANA                     RAWSON 372                                                    Campana              COMISARIO PUJOL PABLO FERNANDO RAMON
+     313CRIA.ZARATE 1RA                  RIVADAVIA 637                                                 Zárate               COMISARIO ERRECALDE ARTURO OSCAR
+     314CRIA.LUJAN 3RA.OPEN DOOR         SANTA FE Y CORRIENTES                                         Luján                SUBCOMISARIO CHAMORRO GABRIEL FRANCISCO
+     315EST.POL.COM.RAUCH                BELGRANO 191                                                  Rauch                SUBCOMISARIO CRISTECHE LUIS ALBERTO
+     316EST.POL.COM.LOBOS II             SAN PATRCIO Y SAN MARTIN                                      Lobos
+     317EST.POL.COM.LOBOS I              SALGADO Y ESTRADA                                             Lobos
+     318EST.POL.COM.LOBOS                SALGADO Y ESTRADA                                             Lobos                SUBCOMISARIO BUSTOS MARIANO ISMAEL
+     319EST.POL.COM.LAS FLORES           MORENO Y AROSTEGUY                                            Las Flores           COMISARIO GUILLEN SEBASTIAN EZEQUIEL
+     320                                 URCELAY Y PADRE FAHY                                          Exaltación de la Cruz
+     321CRIA.TANDIL 4TA                  INDEPENDENCIA 1932                                            Tandil               SUBCOMISARIO FRESCO DARIO DANIEL
+     322CRIA.LUJAN 1RA                   LAS HERAS 387                                                 Luján                COMISARIO GONZALEZ RUBEN
+     323CRIA.TANDIL 2DA                  COLON 1274                                                    Tandil               COMISARIO AYALA OSCAR VICENTE
+     324CRIA.TANDIL 1RA                  INDEPENDENCIA 263                                             Tandil               COMISARIO YAÑEZ CARLOS MAURICIO
+     325CRIA.TANDIL 3RA                  BEIRO 640                                                     Tandil               COMISARIO FERNANDEZ REINALDO EZEQUIEL
+     326CRIA.LUJAN 2DA                   LUIS GONZAGA 184                                              Luján                COMISARIO REBOTTARO GUILLERMO RAUL
+     327SUBEST.POL.COM.LAS CHACRAS       PARAJE CHACRAS                                                Lobos                COMISARIO QUINTANA DANIEL OSCAR
+     328CRIA.ZARATE 2DA                  CALLE 12 NRO 642                                              Zárate               COMISARIO VERA TOMAS DANIEL
+     329EST.POL.COM.NAVARRO              MITRE N° 180                                                  Navarro              COMISARIO TELLO JOSE ANTONIO
+     330EST.POL.COM.ROQUE PEREZ          AVELLANEDA Y BELGRANO                                         Roque Pérez          COMISARIO LOPEZ JUAN MANUEL
+     331EST.POL.COM.MERCEDES             CALLE 37 E/ 24 Y 26                                           Mercedes             COMISARIO DEL PORTO ALEJANDRO DANIEL
+     332EST.POL.COM.S.A.DE GILES         25 DE MAYO 860                                                San Andrés de Giles  SUBCOMISARIO FAIN JUAN DOMINGO
+     333EST.POL.COM.BARADERO             GORRITI Y GALLO                                               Baradero             SUBCOMISARIO MENDEZ MARIO HUMBERTO
+     334EST.POL.COM.SAN CAYETANO         SAN MARTIN 459                                                San Cayetano         SUBCOMISARIO TISERA NICOLAS JORGE ALBERTO
+     335CRIA.SAN PEDRO                   MITRE 1970                                                    San Pedro
+     336EST.POL.COM.SUIPACHA             SAN MARTIN 347                                                Suipacha             COMISARIO LASALA EZEQUIEL RAMON
+     337CRIA.25 DE MAYO 2DA              GUEMES Y VARGAS                                               Veinticinco de Mayo  SUBCOMISARIO PICHIRILO SEBASTIAN OSCAR
+     338CRIA.SALADILLO                   A TOLEDO 3164                                                 Saladillo            COMISARIO BARROS WALTER NELSON
+     339EST.POL.COM.CAPITAN SARMIENTO    LOPEZ Y PLANES 586                                            Capitán Sarmiento    SUBCOMISARIO VARELA SEBASTIAN FERMIN
+     340EST.POL.COM.BENITO JUAREZ        BELGRANO Y OTAMENDI                                           Benito Juárez        COMISARIO SUAREZ WALTER ALEJANDRO
+     341EST.POL.COM.CARMEN DE ARECO      SAAVEDRA 727                                                  Carmen de Areco      SUBCOMISARIO ULLUA CARLOS JOAQUIN
+     342EST.POL.COM.SAN A.DE ARECO       SAAVECRE 727                                                  Carmen de Areco      SUBCOMISARIO COLUCCIO MARCOS EMILIANO
+     343CRIA.AZUL 1RA                    LAS FLORES Y BELGRANO                                         Azul                 SUBCOMISARIO PAUL MIGUEL ALFREDO
+     344SUBCRIA.CHILLAR                  ROCA 179                                                      Azul                 SUBCOMISARIO BORDON LUCAS ALBERTO
+     345SUBCRIA.CACHARI                  25 DE MAYO 1740                                               Azul                 SUBCOMISARIO DELMAS AMBROSIO LUIS
+     346SUBEST.POL.COM.O.I.GARELLI       AVE MITRE Y 110                                               Chivilcoy            SUBCOMISARIO FERNANDEZ ESTEBAN FRANCISCO
+     347CRIA.RAMALLO 1RA                 BELGRANO 651                                                  Ramallo              COMISARIO ACEVEDO JUAN CRUZ
+     348CRIA.RAMALLO 2DA                 VELAZQUEZ 847                                                 Ramallo              SUBCOMISARIO PONCE CRISTIAN GUSTAVO
+     349                                 HUMBERTO PRIMO Y PUEYRREDON                                   Chivilcoy
+     350EST.POL.COM.CHIVILCOY            SAN MARTIN 75                                                 Chivilcoy            COMISARIO IRRAZABAL SERGIO FABIAN
+     351EST.POL.COM.TAPALQUE             MAXIMO GOMEZ Y RIVADAVIA                                      Tapalqué             COMISARIO PENSADO CARLOS GUILLERMO
+     352EST.POL.COM.TRES ARROYOS 2DA     CALLE 13 E/ 32 Y 34                                           Tres Arroyos         SUBCOMISARIO AGUIRRE RETA NELSON RAUL
+     353SUBCRIA.GOBERNADOR UGARTE        SAN MARTIN Y TUCUMAN                                          Veinticinco de Mayo  SUBCOMISARIO GAYONE DIEGO ALFONSO
+     354EST.POL.COM.GONZALEZ CHAVES      GRAL PAZ Y SARMIENTO                                          Adolfo Gonzales ChaveSUBCOMISARIO ALVEZ JORGE ALBERTO
+     355CRIA.ARRECIFES                   SAAVEDRA 226                                                  Arrecifes            COMISARIO VERON CARLOS MIGUEL
+     356SUBCRIA.SIERRAS BAYAS            SAN MARTIN E/ BIAGGI Y ALFONSO AUST                           Olavarría            COMISARIO LEMMA DIEGO ANDRES
+     357SUBCRIA.HINOJO                   CROTTO E/ CALLE 11 Y LIBERTAD                                 Olavarría            SUBCOMISARIO SPARAINO EMILIANO JOSE
+     358SUBCRIA.PEDERNALES               SAN MARTIN Y ALCORTA                                          Veinticinco de Mayo  SUBCOMISARIO LOPARDO GERMAN ESTEBAN
+     359CRIA.25 DE MAYO 1RA              9 E/ 26 Y 27                                                  Veinticinco de Mayo  SUBCOMISARIO IBARRA GUEVARA MAXIMILIANO E.
+     360CRIA.SAN NICOLAS 2DA             AVE CENTRAL 2715                                              San Nicolás          SUBCOMISARIO VILLANUEVA JUAN PABLO
+     361CRIA.SAN NICOLAS 1RA             RIVADAVIA 71                                                  San Nicolás
+     362EST.POL.COM.GRAL.CONESA          BARTOLOME MITRE 660                                           San Nicolás          SUBCOMISARIO IBARRA ESTEBAN ALFREDO
+     363CRIA.SAN NICOLAS 3RA             ILIA 690                                                      San Nicolás          SUBCOMISARIO STORCH CARLOS GERMAN
+     364SUBCRIA.ORENSE                   HIPOLITO YRIGOYEN Y BROWN                                     Tres Arroyos
+     365EST.POL.COM.ALBERTI              ALEM Y CHACABUCO                                              Alberti              COMISARIO PENACCA ROBERTO MARCELO
+     366CRIA.OLAVARRIA 2DA               SAN MARTIN 3648                                               Olavarría            SUBCOMISARIO AMERI GABRIEL ALDO MARCELO
+     367CRIA.OLAVARRIA 1RA               BELGRANO 2439                                                 Olavarría            COMISARIO GONZALEZ ORDOSGOYTY CLAUDIO ANIBAL
+     368                                 LE VALLE Y ALSINA                                             Chacabuco
+     369SUBEST.POL.COM.O´HIGGINS         LEVALLE Y ALSINA                                              Chacabuco            SUBCOMISARIO CABELLA CLAUDIO NORBERTO
+     370                                 SAN JUAN 25                                                   Chacabuco
+     371SUBEST.POL.COM.O´BRIEN           25 DE MAYO 37                                                 Bragado
+     372EST.POL.COM.BRAGADO              BELGRANO Y VEGA                                               Bragado              SUBCOMISARIO DELLAVALLE ANALIA SILVINA
+     373CRIA.PERGAMINO 3RA               MERLINO Y PARAGUAY                                            Pergamino            SUBCOMISARIO COLAS CHRISTIAN ARIEL
+     374CRIA.PERGAMINO 1RA               DORREGO 636                                                   Pergamino            COMISARIO RODRIGUEZ MARIANO LUIS
+     375CRIA.PERGAMINO 2DA               JUAN B JUSTO 1986                                             Pergamino            COMISARIO PRECIADO JUANA MARISEL
+     376EST.POL.COM.ROJAS                ALEM 637                                                      Rojas                COMISARIO INSPECTOR GOMEZ CRISTIAN RUBEN
+     377EST.POL.COM.LAPRIDA              PELLEGRINI 1480                                               Laprida              COMISARIO RODRIGUEZ BRUNO DARIO
+     378EST.POL.COM.NUEVE DE JULIO       ROBBIO 945                                                    Nueve de Julio       COMISARIO FIGUEROA ERICA MARCELA
+     379CRIA.JUNIN 2DA                   GANDINI 165                                                   Junín                SUBCOMISARIO GIGLIOTTI RICARDO LUIS
+     380CRIA.JUNIN 1RA                   DORREGO Y SIRIA                                               Junín                COMISARIO BERTARINI JOSE LUIS
+     381EST.POL.COM.GRAL.VIAMONTE        ITALIA 802                                                    General Viamonte     SUBCOMISARIO FERNANDEZ MARCELO FABIAN
+     382EST.POL.COM.COLON                18 Y 51                                                       Colón                COMISARIO CEPEDA MARIO ALEJANDRO
+     383CRIA.BOLIVAR                     ARENALES 56                                                   Bolivar              COMISARIO FLORES ROLANDO HORACIO
+     384SUBCRIA.URDAMPILLETA             SAAVEDRA 447                                                  Bolivar              SUBCOMISARIO REOS LUCIANO SEBASTIAN
+     385SUBEST.POL.COM.FERRE             BUENOS AIRES  157                                             General Arenales     OFICIAL PRINCIPAL SANTILLAN GUILLERMO OMAR
+     386EST.POL.COM.GRAL.LAMADRID        SARMIENTO 321                                                 General La Madrid    SUBCOMISARIO CIMINO JORGE FEDERICO
+     387CRIA.CORONEL DORREGO             RUBEN ALVAREZ (FUERTES) 544                                   Coronel Dorrego      SUBCOMISARIO MEDINA JOSE MARIA
+     388EST.POL.COM.MONTE HERMOSO        SAN MARTIN Y MENDOZA                                          Monte Hermoso        COMISARIO ALMAZA JORGE HORACIO
+     389SUBCRIA.ORIENTE                  SARMIENTO 557                                                 Coronel Dorrego      OFICIAL PRINCIPAL ALMAZA HUGO ALBERTO
+     390EST.POL.COM.GRAL.ARENALES        9 DE JULIO 90                                                 General Arenales     SUBCOMISARIO LUGANO LUIS OSMAR
+     391EST.POL.COM.CORONEL PRINGLES     CABRERA Y ALEM n° 498                                         Coronel Pringles     SUBCOMISARIO LUCERO ALEXIS LUCIANO
+     392CRIA.LINCOLN                     ALEM 859                                                      Lincoln              COMISARIO SARCO MARIANO JESUS
+     393CRIA.VEDIA                       ALEM 273 - LEANDRO N ALEM                                     Leandro N. Alem      COMISARIO BURDIZ ROBERTO CARLOS
+     394EST.POL.COM.HENDERSON            ESPANA 639                                                    Hipólito Yrigoyen    COMISARIO MANZINI CARLOS AMERICO
+     395CRIA.MUJER Y FLIA.DAIREAUX       PELLEGRINI 388                                                Daireaux             SUBCOMISARIO DURISOTTI HERNAN DIEGO
+     396EST.POL.COM.DAIREAUX             PELLEGRINI 398                                                Daireaux             SUBCOMISARIO CUFRE CARLOS ARIEL
+     397EST.POL.COM.GRAL.PINTO           MITRE 402 - GENERAL PINTO                                     General Pinto        COMISARIO LAVASELLI RENATO MAXIMILIANO
+     398EST.POL.COM.PEHUAJO              DEL VALLE 550                                                 Pehuajó              COMISARIO ARVIZU CESAR LUIS
+     399EST.POL.COM.CNEL.SUAREZ 3RA.     DOS ALEMANAS Y PRINGLES                                       Coronel Suárez       COMISARIO CAROLA HECTOR ALBERTO
+     400EST.POL.COM.CORONEL SUAREZ       RIVAS Y LAS HERAS                                             Coronel Suárez       SUBCOMISARIO GONZALEZ MAURICIO ANTONIO
+     401EST.POL.COM.CORONEL SUAREZ 2DA   GAHAN Y FUNDADORES                                            Coronel Suárez       SUBCOMISARIO ULLMANN FACUNDO ALBERTO
+     402SUBCRIA.ROBERTS                  DUGGAN 1680                                                   Lincoln              SUBCOMISARIO JAUREGUI CARLOS ALBERTO
+     403EST.POL.COM.PUNTA ALTA           MURATURE Y RIVADAVIA - CORONEL DE MARINA LEONARDO ROSALES     Coronel Rosales      COMISARIO CHEPPI GUSTAVO DAVID
+     404                                 MURATURE 572                                                  Coronel Rosales
+     405EST.POL.COM.TORNQUIST            AVE SARMIENTO  72                                             Tornquist            COMISARIO PEREZ DANIEL ALEJANDRO
+     406CRIA.BAHIA BLANCA 4TA            GARIBALDI 262                                                 Bahía Blanca         SUBCOMISARIO OBECHAKA JOSE LUIS
+     407CRIA.BAHIA BLANCA 1RA            BERUTTI 650                                                   Bahía Blanca         COMISARIO SAINT GERMAIN ORLANDO ANIBAL
+     408CRIA.BAHIA BLANCA 3RA            SAN MARTIN 3611                                               Bahía Blanca         COMISARIO TROVATO RODRIGO FABIAN
+     409CRIA.BAHIA BLANCA 2DA            ROCA 557                                                      Bahía Blanca         COMISARIO MANSILLA ANDRES EMIR
+     410CRIA.BAHIA BLANCA 5TA            DON BOSCO 1800                                                Bahía Blanca         COMISARIO AVELDAÑO SERGIO GUSTAVO
+     411SUBCRIA.GRAL.CERRI               ROQUE PEÑA 372                                                Bahía Blanca         SUBCOMISARIO CAMPETELLI HUGO ALFREDO
+     412CRIA.SAAVEDRA 1RA PIGUE          URQUIZA 276                                                   Saavedra             COMISARIO LARREA DIEGO MIGUEL
+     413CRIA.SAAVEDRA 2DA                SAN MARTIN 494                                                Saavedra             SUBCOMISARIO UTHURRALT MARTIN EMILIO
+     414EST.POL.COM.GUAMINI 1RA          ROJAS 480                                                     Guaminí              SUBCOMISARIO PEÑAS MARTIN DARIO
+     415EST.POL.COM.CARLOS TEJEDOR       SAN MARTIN 176                                                Carlos Tejedor       COMISARIO MANAGO LUIS DARIO
+     416EST.POL.COM.AMEGHINO             VIOLANTE 317 - FLORENTINO AMEGHINO                            Florentino Ameghino  COMISARIO VILLARINO NESTOR DAVID
+     417SUBCRIA.30 DE AGOSTO             GRAL PAZ 165                                                  Trenque Lauquen      SUBCOMISARIO GAMBIER MARIA JOSE
+     418EST.POL.COM.VILLARINO 2DA        3 N° 1648                                                     Villarino            COMISARIO NAVARRETE MARCOS
+     419                                 COUSTE 720                                                    Villarino
+     420EST.POL.COM.VILLARINO 1RA        MITRE 696                                                     Villarino            COMISARIO TOARMINA ARIEL ALBERTO SEBASTIAN
+     421CRIA.TRENQUE LAUQUEN             ROCA 572                                                      Trenque Lauquen      COMISARIO ARREGUI MARCO ANTONIO
+     422EST.POL.COM.ADOLFO ALSINA        PELLEGRINI 1151                                               Adolfo Alsina        COMISARIO LOBATO ERIK MARTIN
+     423EST.POL.COM.PUAN 2DA             ESPANA 58                                                     Puan                 SUBCOMISARIO GONZALEZ GASTON ALBERTO
+     424EST.POL.COM.PUAN                 SAN MARTIN 651                                                Puan
+     425CRIA.TRES LOMAS                  RIVADAVIA 165                                                 Tres Lomas           COMISARIO ROYG MATIAS IVAN
+     426SUBEST.POL.COM.C.PATAGONES       COMODORO RIVADAVIA 574                                        Patagones
+     427CRIA.SALLIQUELO                  9 DE JULIO 372                                                Salliqueló           SUBCOMISARIO D'AGOSTINO CRISTIAN ARIEL
+     428CRIA.RIVADAVIA                   CACHAU 72                                                     Rivadavia            SUBCOMISARIO ORELLANO GUILLERMO GASTON
+     429EST.POL.COM.C.DE PATAGONES       RIVADAVIA 574                                                 Patagones            COMISARIO ROMERO MIGUEL ANTONIO
+     430EST.POL.COM.GRAL.VILLEGAS        MORENO 728                                                    General Villegas     COMISARIO COLAREDA CESAR ABEL
+     431CRIA.CARLOS PELLEGRINI           MORENO 392                                                    Pellegrini           COMISARIO BASELLI HERNAN LUIS
