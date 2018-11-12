@@ -19,6 +19,7 @@ void AltaComisaria(tComisaria *comisarias);
 void BuscarComisaria(tComisaria *comisarias, tComisaria comisaria[]);
 void MostrarYEditarRegistro(tComisaria comisaria[]);
 void VisualizarRegistro(tComisaria comisaria[]);
+void ExportarPorPartido(tComisaria *comisarias);
 
 int main(void) {
 	tComisaria comisarias[500];
@@ -57,6 +58,7 @@ int main(void) {
 			BuscarComisaria(comisarias, comisarias);
 			break;
 		case 'd':
+			ExportarPorPartido(comisarias);
 			break;
 		case 'e':
 			break;
@@ -310,18 +312,28 @@ void VisualizarRegistro(tComisaria comisaria[]){
 		
 		system("pause");
 }
-/*
-ExportarPorPartido(tComisaria *comisarias){
+
+void ExportarPorPartido(tComisaria *comisarias){
 	char partidoABuscar[21];
+	int i = 0;
 	int comisariasEncontradas = 0;
+	
+	FILE *comisariasDelPartido;
+	comisariasDelPartido = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\Comisarias por partido.txt", "w");
+	
 	printf("Ingrese partido a buscar: ");
-		gets(partidoABuscar);
-		system("cls");
+	getchar();
+	gets(partidoABuscar);
+	system("cls");
 		
-		for (i = 0; i < 500; i++) {
-			if (strcmp(comisarias->partido, partidoABuscar) == 0) {
-				
+	for (i = 0; i < 500; i++) {
+		if (strcmp(comisarias->partido, partidoABuscar) == 0) {
+			fprintf(comisariasDelPartido, "%d &s %s %s %s", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
+			comisariasEncontradas++;		
 		}
-}*/
+		comisarias++;
+	}
+	if (comisariasEncontradas == 0) printf("\nNo se ha encontrado comisarias de ese partido\n");
+}
 
 
