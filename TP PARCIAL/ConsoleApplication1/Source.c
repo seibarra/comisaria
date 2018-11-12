@@ -310,3 +310,18 @@ void VisualizarRegistro(tComisaria comisaria[]){
 		
 		system("pause");
 }
+/*
+ExportarPorPartido(tComisaria *comisarias){
+	char partidoABuscar[21];
+	int comisariasEncontradas = 0;
+	printf("Ingrese partido a buscar: ");
+		gets(partidoABuscar);
+		system("cls");
+		
+		for (i = 0; i < 500; i++) {
+			if (strcmp(comisarias->partido, partidoABuscar) == 0) {
+				
+		}
+}*/
+
+
