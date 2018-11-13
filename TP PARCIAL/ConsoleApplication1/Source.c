@@ -124,13 +124,13 @@ void ImportarDatos(tComisaria *comisarias) {
 		sscanf(strLinea, "%d", &comisarias->id);
 		strncpy(comisarias->nombre, strLinea + 8, 33);
 		comisarias->nombre[33] = '\0';
-		//QuitarEspacios(comisarias->nombre);
+		QuitarEspacios(comisarias->nombre);
 		strncpy(comisarias->direccion, strLinea + 41, 62);
 		comisarias->direccion[62] = '\0';
-		//QuitarEspacios(comisarias->direccion);
+		QuitarEspacios(comisarias->direccion);
 		strncpy(comisarias->partido, strLinea + 103, 21);
 		comisarias->partido[21] = '\0';
-		//QuitarEspacios(comisarias->partido);
+		QuitarEspacios(comisarias->partido);
 		strncpy(comisarias->representante, strLinea + 124, 168);
 		comisarias->representante[44] = '\0';
 		QuitarEspacios(comisarias->representante);
@@ -145,13 +145,30 @@ void ImportarDatos(tComisaria *comisarias) {
 }
 
 void QuitarEspacios(char *linea){
-   int i;
-   int j;
-   
-   for (i = j = 0; linea[i] != '\0'; i++)
-      if (linea[i] != '\n')
-         linea[j++] = linea[i];
-   linea[j] = '\0';
+	int a = 0, b = 0, i = 0;
+	int posEspacioEncontrado; //posicion del espacio encontrado
+	
+	while (linea[a] != '\0'){
+			if(linea[a] != ' '){
+				posEspacioEncontrado = -1; //si es -1 es que todavia no se ha encontrado un espacio
+			}else{
+				posEspacioEncontrado = a;//Posicion en la que se ha encontrado el primer espacio
+				while(linea[a] == ' '){
+					a++;
+				}
+				if(linea[a] != '\0') //Se comprueba si ha terminado la cadena y si no se vuelve a repetir el bucle en busca de otro espacio
+				posEspacioEncontrado = -1;
+				else break;
+			}
+			a++;
+	}
+	if (posEspacioEncontrado != -1){
+		for (a = b = posEspacioEncontrado; linea[a] != '\0'; a++) //Elimina todos los espacios que encuentre hasta encontrar \0
+   			linea[b] = '\0';
+	}
+	for (a = b = 0; linea[a] != '\0'; a++){
+      	if (linea[a] == '\n') linea[a] = '\0';
+	}
 }
 
 void AltaComisaria(tComisaria *comisarias) {
@@ -401,10 +418,10 @@ void MostrarTablaDePartidos(tComisaria *comisarias){
 		partidoEncontrado = 0;
 		comisarias++;
 	}
-	printf("Partido\t\tCantidad\n\n");
+	printf("Cantidad\n\nPartido\n");
 	for(i = 0; i < 499; i++){
 		if(partidos[i][0] != '\0'){
-			printf("%s\t\t%d\n", partidos[i], cantidadPartidos[i]);
+			printf("%d\t%s\n", cantidadPartidos[i], partidos[i]);
 		}
 	}
 	system("pause");
