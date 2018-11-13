@@ -146,24 +146,24 @@ void ImportarDatos(tComisaria *comisarias) {
 
 void QuitarEspacios(char *linea){
 	int a = 0, b = 0, i = 0;
-	int posEspacioEncontrado; //posicion del espacio encontrado
+	int posEspacioEncontrado; 
 	
 	while (linea[a] != '\0'){
 			if(linea[a] != ' '){
-				posEspacioEncontrado = -1; //si es -1 es que todavia no se ha encontrado un espacio
+				posEspacioEncontrado = -1; 
 			}else{
-				posEspacioEncontrado = a;//Posicion en la que se ha encontrado el primer espacio
+				posEspacioEncontrado = a;
 				while(linea[a] == ' '){
 					a++;
 				}
-				if(linea[a] != '\0') //Se comprueba si ha terminado la cadena y si no se vuelve a repetir el bucle en busca de otro espacio
+				if(linea[a] != '\0') 
 				posEspacioEncontrado = -1;
 				else break;
 			}
 			a++;
 	}
 	if (posEspacioEncontrado != -1){
-		for (a = b = posEspacioEncontrado; linea[a] != '\0'; a++) //Elimina todos los espacios que encuentre hasta encontrar \0
+		for (a = b = posEspacioEncontrado; linea[a] != '\0'; a++) 
    			linea[b] = '\0';
 	}
 	for (a = b = 0; linea[a] != '\0'; a++){
