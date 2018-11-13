@@ -49,7 +49,7 @@ int main(void) {
 		printf("z: Guardar y salir\n");
 
 		scanf("%c", &opc);
-
+		getchar();
 		switch (opc) {
 		case 'a':
 			ImportarDatos(comisarias);
@@ -80,21 +80,22 @@ int main(void) {
 void CargarDatos(tComisaria *comisarias) {
 	int i = 0;
 	FILE *comisBin;
-	comisBin = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.bin", "rb");
+	comisBin = fopen("comisaria.bin", "rb");
 	if (comisBin != NULL) {
 		for (i = 0; i < 500; i++){
 		fread(comisarias, sizeof(tComisaria), 1, comisBin);
 		comisarias++;
 	    }
+	    fclose(comisBin);
 	}
 	
-	fclose(comisBin);
+	
 }
 
 void GuardarDatos(tComisaria *comisarias) {
 	int i = 0;
 	FILE *comisBin;
-	comisBin = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.bin", "wb");
+	comisBin = fopen("comisaria.bin", "wb");
 	for (i = 0; i < 500; i++){
 		fwrite(comisarias, sizeof(tComisaria), 1, comisBin);
 		comisarias++;
@@ -105,38 +106,54 @@ void GuardarDatos(tComisaria *comisarias) {
 
 
 void ImportarDatos(tComisaria *comisarias) {
-	int i = 0;
+	int i = 0, lineaTerminada = 0;
 	char strLinea[178];
 
 
 	FILE *comisFile;
-	comisFile = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.txt", "r");
+	comisFile = fopen("comisaria.txt", "r");
 	if (comisFile == NULL) {
 		printf("\n\nNo se pudo abrir archivo\n");
 		system("pause");
 		exit(EXIT_FAILURE);
 	}
 
-	fgets(strLinea, 168, comisFile);
+	fgets(strLinea, 200, comisFile);
 
 	while (!feof(comisFile) && i < 500) {
 
 		sscanf(strLinea, "%d", &comisarias->id);
+	
 		strncpy(comisarias->nombre, strLinea + 8, 33);
 		comisarias->nombre[33] = '\0';
+		if(strstr(comisarias->nombre, "\n") != NULL) lineaTerminada = 1;
 		QuitarEspacios(comisarias->nombre);
+		
+		if(lineaTerminada != 1){
 		strncpy(comisarias->direccion, strLinea + 41, 62);
 		comisarias->direccion[62] = '\0';
+		if(strstr(comisarias->direccion, "\n") != NULL) lineaTerminada = 1;
 		QuitarEspacios(comisarias->direccion);
+		}
+		
+		if(lineaTerminada != 1){
 		strncpy(comisarias->partido, strLinea + 103, 21);
 		comisarias->partido[21] = '\0';
+		if(strstr(comisarias->partido, "\n") != NULL) lineaTerminada = 1;
 		QuitarEspacios(comisarias->partido);
+		}
+		
+		if(lineaTerminada != 1){
 		strncpy(comisarias->representante, strLinea + 124, 168);
 		comisarias->representante[44] = '\0';
+		if(strstr(comisarias->representante, "\n") != NULL) lineaTerminada = 1;
 		QuitarEspacios(comisarias->representante);
+		}
+		
+		lineaTerminada = 0;
 		i++;
 		comisarias++;
-		fgets(strLinea, 178, comisFile);
+		fgets(strLinea, 200, comisFile);
 	}
 	
 	fclose(comisFile);
@@ -176,25 +193,28 @@ void AltaComisaria(tComisaria *comisarias) {
 	int i = 0;
 	for (i = 0; i < 500; i++)
 	{
-		if (comisarias[i].id != 0) {
-			aux = i + 1;
+		if (comisarias->id != 0) {
+			comisarias++;
 		}
 	}
-	comisarias[aux].id = aux;
+	comisarias->id = aux;
 	printf("\nNombre de la comisaria a agregar: ");
-	scanf("%s", &comisarias[aux].nombre);
+	gets(comisarias->nombre);
+	//getchar();
 	printf("\nDireccion de la comisaria: ");
-	scanf("%s", &comisarias[aux].direccion);
+	gets(comisarias->direccion);
+	//getchar();
 	printf("\nPartido al que corresponde: ");
-	scanf("%s", &comisarias[aux].partido);
+	gets(comisarias->partido);
+	//getchar();
 	printf("\nRepresentante de la comisaria: ");
-	scanf("%s", &comisarias[aux].representante);
+	gets(comisarias->representante);
 
-	printf("\n\n%d\n", comisarias[aux].id);
-	printf("%s\n", comisarias[aux].nombre);
-	printf("%s\n", comisarias[aux].direccion);
-	printf("%s\n", comisarias[aux].partido);
-	printf("%s\n", comisarias[aux].representante);
+	printf("\n\n%d\n", comisarias->id);
+	printf("%s\n", comisarias->nombre);
+	printf("%s\n", comisarias->direccion);
+	printf("%s\n", comisarias->partido);
+	printf("%s\n", comisarias->representante);
 	system("pause");
 }
 
@@ -302,6 +322,7 @@ void MostrarYEditarRegistro(tComisaria comisaria[]) {
 		
 		scanf("%d", &opc);
 		getchar();
+		
 		switch (opc) {
 		case 1:
 			printf("\nEscriba el nuevo nombre para la comisaria (maximo 34 caracteres): ");
@@ -356,7 +377,7 @@ void ExportarPorPartido(tComisaria *comisarias){
 	int comisariasEncontradas = 0;
 	
 	FILE *comisariasDelPartido;
-	comisariasDelPartido = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\Comisarias por partido.txt", "w");
+	comisariasDelPartido = fopen("Comisarias por partido.txt", "w");
 	
 	printf("Ingrese partido a buscar: ");
 	getchar();
@@ -365,8 +386,8 @@ void ExportarPorPartido(tComisaria *comisarias){
 		
 	for (i = 0; i < 500; i++) {
 		if (strstr(comisarias->partido, partidoABuscar) != NULL) {
-			fprintf(comisariasDelPartido, "%d %s %s %s %s\n", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
-			printf("%d %s %s %s %s\n", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
+			fprintf(comisariasDelPartido, "%d %s\t %s\t %s\t %s\n\n", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
+			printf("%d %s\t %s\t %s\t %s\n\n", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
 			comisariasEncontradas++;		
 		}
 		comisarias++;
@@ -391,15 +412,15 @@ void MostrarTablaDePartidos(tComisaria *comisarias){
 	}
 	
 	FILE *comisFile;
-	comisFile = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.txt", "r");
+	comisFile = fopen("comisaria.txt", "r");
 	if(comisFile == NULL){
 		printf("\n\nNo se pudo abrir el archivo");
 		system("pause");
 		exit(EXIT_FAILURE);
 	}
 	strcmp(partidos[0], partidos[1]);
-	for(a = 0; a < 499; a++){
-		for(b = 0; b < 499; b++){
+	for(a = 0; a < 500; a++){
+		for(b = 0; b < 500; b++){
 			if(strcmp(comisarias->partido, partidos[b]) == 0){
 				partidoEncontrado = 1;
 				cantidadPartidos[b]++;
@@ -407,7 +428,7 @@ void MostrarTablaDePartidos(tComisaria *comisarias){
 			}
 		}
 		if (partidoEncontrado == 0){
-			for(c = 0; c < 499; c++){
+			for(c = 0; c < 500; c++){
 				if(partidos[c][0] == '\0'){
 					strcpy(partidos[c], comisarias->partido);
 					cantidadPartidos[c]++;
@@ -418,8 +439,10 @@ void MostrarTablaDePartidos(tComisaria *comisarias){
 		partidoEncontrado = 0;
 		comisarias++;
 	}
+	
 	printf("Cantidad\n\nPartido\n");
-	for(i = 0; i < 499; i++){
+	
+	for(i = 0; i < 500; i++){
 		if(partidos[i][0] != '\0'){
 			printf("%d\t%s\n", cantidadPartidos[i], partidos[i]);
 		}
