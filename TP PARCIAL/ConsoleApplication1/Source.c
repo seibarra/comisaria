@@ -11,8 +11,8 @@ typedef struct {
 	char representante[45];
 } tComisaria;
 
-void CargarDatos(tComisaria *comisarias);
-void GuardarDatos(tComisaria *comisarias);
+
+void QuitarEspacios(char *linea);
 
 void ImportarDatos(tComisaria *comisarias);
 void AltaComisaria(tComisaria *comisarias);
@@ -20,6 +20,9 @@ void BuscarComisaria(tComisaria *comisarias, tComisaria comisaria[]);
 void MostrarYEditarRegistro(tComisaria comisaria[]);
 void VisualizarRegistro(tComisaria comisaria[]);
 void ExportarPorPartido(tComisaria *comisarias);
+void MostrarTablaDePartidos(tComisaria *comisarias);
+void CargarDatos(tComisaria *comisarias);
+void GuardarDatos(tComisaria *comisarias);
 
 int main(void) {
 	tComisaria comisarias[500];
@@ -61,6 +64,7 @@ int main(void) {
 			ExportarPorPartido(comisarias);
 			break;
 		case 'e':
+			MostrarTablaDePartidos(comisarias);
 			break;
 		case 'z':
 			GuardarDatos(comisarias);
@@ -120,20 +124,34 @@ void ImportarDatos(tComisaria *comisarias) {
 		sscanf(strLinea, "%d", &comisarias->id);
 		strncpy(comisarias->nombre, strLinea + 8, 33);
 		comisarias->nombre[33] = '\0';
+		//QuitarEspacios(comisarias->nombre);
 		strncpy(comisarias->direccion, strLinea + 41, 62);
 		comisarias->direccion[62] = '\0';
+		//QuitarEspacios(comisarias->direccion);
 		strncpy(comisarias->partido, strLinea + 103, 21);
 		comisarias->partido[21] = '\0';
+		//QuitarEspacios(comisarias->partido);
 		strncpy(comisarias->representante, strLinea + 124, 168);
 		comisarias->representante[44] = '\0';
+		QuitarEspacios(comisarias->representante);
 		i++;
 		comisarias++;
-		fgets(strLinea, 500, comisFile);
+		fgets(strLinea, 178, comisFile);
 	}
-
+	
 	fclose(comisFile);
 	printf("\nLos datos han sido importados.\n");
 	system("pause");
+}
+
+void QuitarEspacios(char *linea){
+   int i;
+   int j;
+   
+   for (i = j = 0; linea[i] != '\0'; i++)
+      if (linea[i] != '\n')
+         linea[j++] = linea[i];
+   linea[j] = '\0';
 }
 
 void AltaComisaria(tComisaria *comisarias) {
@@ -246,7 +264,7 @@ void MostrarYEditarRegistro(tComisaria comisaria[]) {
 
 	printf("\nIngrese el ID de la comisaria a editar: ");
 	scanf("%d", &id);
-	
+	id--;
 	do{
 		system("cls");
 	
@@ -263,6 +281,7 @@ void MostrarYEditarRegistro(tComisaria comisaria[]) {
 		printf("3-Partido\n");
 		printf("4-Representante\n");
 		printf("5-Salir\n");
+		
 		
 		scanf("%d", &opc);
 		getchar();
@@ -305,6 +324,7 @@ void VisualizarRegistro(tComisaria comisaria[]){
 	system("cls");
 	
 		printf("ID: %d", id);
+		id--;
 		printf("\nNombre: %s", comisaria[id].nombre);
 		printf("\nDireccion: %s", comisaria[id].direccion);
 		printf("\nPartido: %s", comisaria[id].partido);
@@ -314,7 +334,7 @@ void VisualizarRegistro(tComisaria comisaria[]){
 }
 
 void ExportarPorPartido(tComisaria *comisarias){
-	char partidoABuscar[21];
+	char partidoABuscar[22];
 	int i = 0;
 	int comisariasEncontradas = 0;
 	
@@ -327,13 +347,65 @@ void ExportarPorPartido(tComisaria *comisarias){
 	system("cls");
 		
 	for (i = 0; i < 500; i++) {
-		if (strcmp(comisarias->partido, partidoABuscar) == 0) {
-			fprintf(comisariasDelPartido, "%d &s %s %s %s", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
+		if (strstr(comisarias->partido, partidoABuscar) != NULL) {
+			fprintf(comisariasDelPartido, "%d %s %s %s %s\n", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
+			printf("%d %s %s %s %s\n", comisarias->id, comisarias->nombre, comisarias->direccion, comisarias->partido, comisarias->representante);
 			comisariasEncontradas++;		
 		}
 		comisarias++;
 	}
+	fclose(comisariasDelPartido);
 	if (comisariasEncontradas == 0) printf("\nNo se ha encontrado comisarias de ese partido\n");
+	else printf("\n\nEl total de comisarias encontradas con %s es: %d\n", partidoABuscar, comisariasEncontradas);
+	system("pause");
+	
 }
 
-
+void MostrarTablaDePartidos(tComisaria *comisarias){
+	int i = 0, a = 0, b = 0,c = 0;
+	int partidoEncontrado = 0; //1-verdadero 0-falso
+	char partidos[500][22];
+	int cantidadPartidos[500];
+	
+	for (i = 0; i < 500; i++)
+	{
+		cantidadPartidos[i] = 0;
+		strcpy(partidos[i], "");
+	}
+	
+	FILE *comisFile;
+	comisFile = fopen("C:\\Users\\PPC\\Documents\\GitHub\\comisaria\\TP PARCIAL\\comisaria.txt", "r");
+	if(comisFile == NULL){
+		printf("\n\nNo se pudo abrir el archivo");
+		system("pause");
+		exit(EXIT_FAILURE);
+	}
+	strcmp(partidos[0], partidos[1]);
+	for(a = 0; a < 499; a++){
+		for(b = 0; b < 499; b++){
+			if(strcmp(comisarias->partido, partidos[b]) == 0){
+				partidoEncontrado = 1;
+				cantidadPartidos[b]++;
+				break;
+			}
+		}
+		if (partidoEncontrado == 0){
+			for(c = 0; c < 499; c++){
+				if(partidos[c][0] == '\0'){
+					strcpy(partidos[c], comisarias->partido);
+					cantidadPartidos[c]++;
+					break;
+				}
+			}
+		}
+		partidoEncontrado = 0;
+		comisarias++;
+	}
+	printf("Partido\t\tCantidad\n\n");
+	for(i = 0; i < 499; i++){
+		if(partidos[i][0] != '\0'){
+			printf("%s\t\t%d\n", partidos[i], cantidadPartidos[i]);
+		}
+	}
+	system("pause");
+}

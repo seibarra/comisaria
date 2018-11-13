@@ -1,4 +1,3 @@
-Id      Nombre                           Dirección                                                     Partido              Representante
        1EST.POL.COM.SALTO                ALVEAR 44                                                     Salto                COMISARIO PAHUASI JUSTO GERMAN
        2SUBCRIA.GORINA                   140 BIS ENTRE 492 Y 501                                       La Plata
        3CRIA.MUJER Y FLIA.GRAL.PAZ       CAMPOMAR 2944                                                 General Paz          SUBCOMISARIO ALVAREZ NATALIA MARIA
